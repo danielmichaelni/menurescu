@@ -1,22 +1,20 @@
 import Head from "next/head";
 import { ChangeEvent, useEffect, useState } from "react";
 import { Input } from "antd";
-import { SearchOutlined } from "@ant-design/icons";
+import { SearchOutlined, TwitterOutlined } from "@ant-design/icons";
 
 import RestaurantCard from "../components/RestaurantCard";
 import data from "../../public/data.json";
 import { Restaurant } from "../types";
-import { initGA, logPageView } from "../utils/analytics";
+import { initGA, logPageView, logEvent } from "../utils/analytics";
 
 const Home = () => {
   const restaurants: Restaurant[] = data.restaurants;
   const [searchValue, setSearchValue] = useState("");
   const [filteredRestaurants, setFilteredRestaurants] = useState(restaurants);
   useEffect(() => {
-    if (process.env.NODE_ENV === "production") {
-      initGA();
-      logPageView();
-    }
+    initGA();
+    logPageView();
   }, []);
   useEffect(() => {
     if (searchValue === "") {
@@ -33,6 +31,9 @@ const Home = () => {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearchValue(e.target.value);
   };
+  const trackShare = () => {
+    logEvent("share", "twitter");
+  };
 
   return (
     <>
@@ -43,6 +44,19 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="logo">Menu Rescu</div>
+        </div>
+        <div className="shareContainer">
+          <div className="shareLabel">Help spread the word:</div>
+          <a
+            onClick={trackShare}
+            href={`https://twitter.com/intent/tweet?url=https://menurescu.com&text=${encodeURI(
+              "Gift cards can help restaurants survive coronavirus. Please join me in supporting your favorite NYC spots at -->"
+            )}`}
+            target="_blank"
+            rel="noopener"
+          >
+            <TwitterOutlined />
+          </a>
         </div>
         <div className="searchContainer">
           <Input
@@ -77,6 +91,15 @@ const Home = () => {
         }
         .logo {
           font-size: 24px;
+        }
+        .shareContainer {
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 24px;
+        }
+        .shareLabel {
+          margin-right: 12px;
         }
         .searchContainer {
           margin-bottom: 24px;

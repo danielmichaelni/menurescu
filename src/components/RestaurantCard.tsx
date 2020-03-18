@@ -9,17 +9,15 @@ interface Props {
 }
 
 const RestaurantCard: FC<Props> = ({ restaurant }) => {
-  const handleClick = () => {
-    if (process.env.NODE_ENV === "production") {
-      logEvent("click", restaurant.name);
-    }
+  const trackClick = () => {
+    logEvent("click", restaurant.name);
   };
 
   return (
     <>
       <div className="container">
         <a
-          onClick={handleClick}
+          onClick={trackClick}
           href={restaurant.giftcardUrl}
           target="_blank"
           rel="noopener"

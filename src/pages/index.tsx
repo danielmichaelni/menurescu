@@ -4,13 +4,20 @@ import { Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 
 import RestaurantCard from "../components/RestaurantCard";
-import { Restaurant } from "../types";
 import data from "../../public/data.json";
+import { Restaurant } from "../types";
+import { initGA, logPageView } from "../utils/analytics";
 
 const Home = () => {
   const restaurants: Restaurant[] = data.restaurants;
   const [searchValue, setSearchValue] = useState("");
   const [filteredRestaurants, setFilteredRestaurants] = useState(restaurants);
+  useEffect(() => {
+    if (process.env.NODE_ENV === "production") {
+      initGA();
+      logPageView();
+    }
+  }, []);
   useEffect(() => {
     if (searchValue === "") {
       setFilteredRestaurants(restaurants);

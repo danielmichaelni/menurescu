@@ -2,16 +2,28 @@ import { Card } from "antd";
 import { FC } from "react";
 
 import { Restaurant } from "../types";
+import { logEvent } from "../utils/analytics";
 
 interface Props {
   restaurant: Restaurant;
 }
 
 const RestaurantCard: FC<Props> = ({ restaurant }) => {
+  const handleClick = () => {
+    if (process.env.NODE_ENV === "production") {
+      logEvent("click", restaurant.name);
+    }
+  };
+
   return (
     <>
       <div className="container">
-        <a href={restaurant.giftcardUrl} target="_blank" rel="noopener">
+        <a
+          onClick={handleClick}
+          href={restaurant.giftcardUrl}
+          target="_blank"
+          rel="noopener"
+        >
           <Card
             cover={
               <img

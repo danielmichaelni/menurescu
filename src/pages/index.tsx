@@ -95,7 +95,7 @@ const Home = () => {
         <div className="fundraiserInfo">
           <div className="fundraiserDescription">
             Some restaurants have started fundraisers as well to support their
-            staff. Here's a few we've come across so far (to be updated):
+            staff. Here are a few we've come across so far (to be updated):
           </div>
           <div className="fundraiserLinks">
             <a
@@ -230,7 +230,7 @@ const Home = () => {
           align-items: center;
           display: flex;
           flex-direction: column;
-          margin-bottom: 36px;
+          margin-bottom: 48px;
         }
       `}</style>
     </>

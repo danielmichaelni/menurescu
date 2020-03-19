@@ -1,5 +1,5 @@
 import { ChangeEvent, useEffect, useState } from "react";
-import { Input } from "antd";
+import { Input, Select } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 
 import Layout from "../components/Layout";
@@ -12,7 +12,14 @@ const IndexPage = () => {
   const restaurantsWithGiftCards: Restaurant[] = data.restaurants.filter(
     restaurant => restaurant.giftcardUrl
   );
+  const neighborhoods = [
+    ...new Set(
+      restaurantsWithGiftCards.map(restaurant => restaurant.neighborhood)
+    )
+  ].sort();
+
   const [searchValue, setSearchValue] = useState("");
+  const [neighborhoodFilter, setNeighborhoodFilter] = useState<string[]>([]);
   const [filteredRestaurants, setFilteredRestaurants] = useState(
     restaurantsWithGiftCards
   );
@@ -21,16 +28,20 @@ const IndexPage = () => {
     logPageView();
   }, []);
   useEffect(() => {
-    if (searchValue === "") {
-      setFilteredRestaurants(restaurantsWithGiftCards);
-      return;
-    }
     setFilteredRestaurants(
-      restaurantsWithGiftCards.filter(restaurant =>
-        restaurant.name.toLowerCase().includes(searchValue.toLowerCase())
-      )
+      restaurantsWithGiftCards
+        .filter(restaurant => {
+          if (searchValue === "") return true;
+          return restaurant.name
+            .toLowerCase()
+            .includes(searchValue.toLowerCase());
+        })
+        .filter(restaurant => {
+          if (neighborhoodFilter.length === 0) return true;
+          return neighborhoodFilter.includes(restaurant.neighborhood);
+        })
     );
-  }, [searchValue]);
+  }, [searchValue, neighborhoodFilter]);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     setSearchValue(e.target.value);
@@ -49,7 +60,6 @@ const IndexPage = () => {
           decent solution. The choice to invest in a future meal gives
           restaurant owners something to work with in the interim." -Eater
         </div>
-
         <div className="searchContainer">
           <Input
             value={searchValue}
@@ -58,6 +68,23 @@ const IndexPage = () => {
             prefix={<SearchOutlined />}
             size="large"
           />
+        </div>
+        <div className="neighborhoodContainer">
+          <Select
+            mode="multiple"
+            onChange={(value: string[]) => {
+              setNeighborhoodFilter(value);
+            }}
+            placeholder="Filter by neighborhood"
+            size="large"
+            style={{ width: "100%" }}
+          >
+            {neighborhoods.map(neighborhood => (
+              <Select.Option key={neighborhood} value={neighborhood}>
+                {neighborhood}
+              </Select.Option>
+            ))}
+          </Select>
         </div>
         <div className="restaurantCardsContainer">
           {filteredRestaurants.map(restaurant => (
@@ -85,6 +112,9 @@ const IndexPage = () => {
           padding: 0 36px;
         }
         .searchContainer {
+          margin-bottom: 12px;
+        }
+        .neighborhoodContainer {
           margin-bottom: 24px;
         }
         .restaurantCardsContainer {

@@ -93,31 +93,35 @@ const Home = () => {
           restaurant owners something to work with in the interim." -Eater
         </div>
         <div className="fundraiserInfo">
-          Some restaurants have started gofundme's as well to support their
-          staff. Here's a few we've come across so far (to be updated):{" "}
-          <a
-            href="https://www.gofundme.com/f/aska-employee-relief-fund"
-            target="_blank"
-            rel="noopener"
-          >
-            Aska
-          </a>{" "}
-          |{" "}
-          <a
-            href="https://www.gofundme.com/f/295grandstreet"
-            target="_blank"
-            rel="noopener"
-          >
-            Four Horsemen
-          </a>{" "}
-          |{" "}
-          <a
-            href="https://www.gofundme.com/f/epicurean-family-support-fund"
-            target="_blank"
-            rel="noopener"
-          >
-            L'Artusi (Epicurean)
-          </a>
+          <div className="fundraiserDescription">
+            Some restaurants have started fundraisers as well to support their
+            staff. Here's a few we've come across so far (to be updated):
+          </div>
+          <div className="fundraiserLinks">
+            <a
+              href="https://www.gofundme.com/f/aska-employee-relief-fund"
+              target="_blank"
+              rel="noopener"
+            >
+              Aska
+            </a>
+            <div className="divider">|</div>
+            <a
+              href="https://www.gofundme.com/f/295grandstreet"
+              target="_blank"
+              rel="noopener"
+            >
+              Four Horsemen
+            </a>
+            <div className="divider">|</div>
+            <a
+              href="https://www.gofundme.com/f/epicurean-family-support-fund"
+              target="_blank"
+              rel="noopener"
+            >
+              L'Artusi (Epicurean)
+            </a>
+          </div>
         </div>
         <div className="searchContainer">
           <Input
@@ -185,6 +189,16 @@ const Home = () => {
         .fundraiserInfo {
           margin-bottom: 24px;
           padding: 0 12px;
+        }
+        .fundraiserDescription {
+          margin-bottom: 12px;
+        }
+        .fundraiserLinks {
+          display: flex;
+          justify-content: center;
+        }
+        .divider {
+          margin: 0 8px;
         }
         .shareContainer {
           align-items: center;

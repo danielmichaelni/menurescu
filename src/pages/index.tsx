@@ -92,6 +92,33 @@ const Home = () => {
           decent solution. The choice to invest in a future meal gives
           restaurant owners something to work with in the interim." -Eater
         </div>
+        <div className="fundraiserInfo">
+          Some restaurants have started gofundme's as well to support their
+          staff. Here's a few we've come across so far (to be updated):{" "}
+          <a
+            href="https://www.gofundme.com/f/aska-employee-relief-fund"
+            target="_blank"
+            rel="noopener"
+          >
+            Aska
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://www.gofundme.com/f/295grandstreet"
+            target="_blank"
+            rel="noopener"
+          >
+            Four Horsemen
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://www.gofundme.com/f/epicurean-family-support-fund"
+            target="_blank"
+            rel="noopener"
+          >
+            L'Artusi (Epicurean)
+          </a>
+        </div>
         <div className="searchContainer">
           <Input
             value={searchValue}
@@ -107,29 +134,18 @@ const Home = () => {
           ))}
           {filteredRestaurants.length === 0 && (
             <div className="emptyResult">
-              We can't find any restaurants that match that search. If we're
-              missing a restaurant, please let us know here:{" "}
-              <a
-                href="https://forms.gle/LF1qfdCH6JDmQL9c6"
-                target="_blank"
-                rel="noopener"
-              >
-                https://forms.gle/LF1qfdCH6JDmQL9c6
-              </a>
+              We can't find any restaurants that match that search.
             </div>
           )}
         </div>
         <div className="footer">
-          <div>
-            Add a restaurant:{" "}
-            <a
-              href="https://forms.gle/LF1qfdCH6JDmQL9c6"
-              target="_blank"
-              rel="noopener"
-            >
-              https://forms.gle/LF1qfdCH6JDmQL9c6
-            </a>
-          </div>
+          <a
+            href="https://forms.gle/LF1qfdCH6JDmQL9c6"
+            target="_blank"
+            rel="noopener"
+          >
+            Add a restaurant
+          </a>
           <div>Contact: hello@menurescu.com</div>
         </div>
       </div>
@@ -165,6 +181,10 @@ const Home = () => {
           font-style: italic;
           margin-bottom: 24px;
           padding: 0 36px;
+        }
+        .fundraiserInfo {
+          margin-bottom: 24px;
+          padding: 0 12px;
         }
         .shareContainer {
           align-items: center;

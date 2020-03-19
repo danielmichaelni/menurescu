@@ -1,11 +1,17 @@
-import Layout from "../components/Layout";
+import { useEffect } from "react";
 
+import Layout from "../components/Layout";
 import data from "../../public/data.json";
+import { initGA, logPageView } from "../utils/analytics";
 
 const ReliefFundsPage = () => {
   const restaurantsWithReliefFunds = data.restaurants.filter(
     restaurant => restaurant.reliefFundUrl
   );
+  useEffect(() => {
+    initGA();
+    logPageView();
+  }, []);
 
   return (
     <>

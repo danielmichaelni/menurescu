@@ -12,51 +12,59 @@ const Header = () => {
 
   return (
     <>
-      <Container>
-        <div className="header">
-          <div className="group">
-            <Link href="/">
-              <a className="logo">MenuRescu</a>
-            </Link>
-            <Link href="/relief-funds">
-              <a className="link">Relief funds</a>
-            </Link>
-          </div>
-          <div className="group">
-            <div className="shareLabel">Help spread the word:</div>
-            <div className="shareButton">
-              <TwitterShareButton
-                className="shareButton"
-                title="Gift cards can help restaurants survive coronavirus. Please join me in supporting your favorite NYC spots at -->"
-                url="https://menurescu.com"
-              >
-                <TwitterOutlined
-                  style={{ color: "#00acee", fontSize: 20 }}
-                  onClick={() => {
-                    trackShare("twitter");
-                  }}
-                />
-              </TwitterShareButton>
+      <div className="header">
+        <Container>
+          <div className="content">
+            <div className="group">
+              <Link href="/">
+                <a className="logo">MenuRescu</a>
+              </Link>
             </div>
-            <div className="shareButton">
-              <FacebookShareButton url="https://menurescu.com">
-                <FacebookOutlined
-                  style={{ color: "#3b5998", fontSize: 20 }}
-                  onClick={() => {
-                    trackShare("facebook");
-                  }}
-                />
-              </FacebookShareButton>
+            <div className="group">
+              <Link href="/relief-funds">
+                <a className="link">
+                  <div>Relief funds</div>
+                </a>
+              </Link>
+              {/* <div className="shareLabel">Spread the word:</div> */}
+              <div className="shareButton">
+                <TwitterShareButton
+                  className="shareButton"
+                  title="Gift cards can help restaurants survive coronavirus. Please join me in supporting your favorite NYC spots at -->"
+                  url="https://menurescu.com"
+                >
+                  <TwitterOutlined
+                    style={{ color: "#00acee", fontSize: 20 }}
+                    onClick={() => {
+                      trackShare("twitter");
+                    }}
+                  />
+                </TwitterShareButton>
+              </div>
+              <div className="shareButton">
+                <FacebookShareButton url="https://menurescu.com">
+                  <FacebookOutlined
+                    style={{ color: "#3b5998", fontSize: 20 }}
+                    onClick={() => {
+                      trackShare("facebook");
+                    }}
+                  />
+                </FacebookShareButton>
+              </div>
             </div>
           </div>
-        </div>
-      </Container>
+        </Container>
+      </div>
       <style jsx>{`
         .header {
+          border-bottom: 1px solid #ccc;
+          margin-bottom: 12px;
+        }
+        .content {
           align-items: center;
           display: flex;
           justify-content: space-between;
-          padding: 24px 0;
+          padding: 24px 0 12px 0;
         }
         .group {
           align-items: center;
@@ -78,10 +86,11 @@ const Header = () => {
         .link {
           color: #000;
           font-weight: 500;
+          margin-right: 12px;
         }
         .shareLabel {
-          position: relative;
-          top: -2px;
+          // position: relative;
+          // top: -2px;
         }
         @media screen and (max-width: 480px) {
           .shareLabel {

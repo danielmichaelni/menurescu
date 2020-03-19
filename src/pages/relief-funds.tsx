@@ -22,7 +22,7 @@ const ReliefFundsPage = () => {
         </div>
         <ul className="link">
           {restaurantsWithReliefFunds.map(restaurant => (
-            <li className="link">
+            <li key={restaurant.name} className="link">
               <a href={restaurant.reliefFundUrl} target="_blank" rel="noopener">
                 {restaurant.name}
               </a>

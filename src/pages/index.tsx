@@ -48,7 +48,8 @@ const Home = () => {
         <link
           href="https://fonts.googleapis.com/css2?family=family=Martel&Martel+Sans&display=swap"
           rel="stylesheet"
-        ></link>
+        />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="container">
         <div className="header">

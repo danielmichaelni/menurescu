@@ -1,30 +1,32 @@
-import Head from "next/head";
 import { ChangeEvent, useEffect, useState } from "react";
 import { Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Layout from "../components/Layout";
 import RestaurantCard from "../components/RestaurantCard";
 import data from "../../public/data.json";
 import { Restaurant } from "../types";
 import { initGA, logPageView } from "../utils/analytics";
 
-const Home = () => {
-  const restaurants: Restaurant[] = data.restaurants;
+const IndexPage = () => {
+  const restaurantsWithGiftCards: Restaurant[] = data.restaurants.filter(
+    restaurant => restaurant.giftcardUrl
+  );
   const [searchValue, setSearchValue] = useState("");
-  const [filteredRestaurants, setFilteredRestaurants] = useState(restaurants);
+  const [filteredRestaurants, setFilteredRestaurants] = useState(
+    restaurantsWithGiftCards
+  );
   useEffect(() => {
     initGA();
     logPageView();
   }, []);
   useEffect(() => {
     if (searchValue === "") {
-      setFilteredRestaurants(restaurants);
+      setFilteredRestaurants(restaurantsWithGiftCards);
       return;
     }
     setFilteredRestaurants(
-      restaurants.filter(restaurant =>
+      restaurantsWithGiftCards.filter(restaurant =>
         restaurant.name.toLowerCase().includes(searchValue.toLowerCase())
       )
     );
@@ -36,17 +38,7 @@ const Home = () => {
 
   return (
     <>
-      <Head>
-        <title>MenuRescu</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=family=Martel&Martel+Sans&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <div className="container">
-        <Header />
+      <Layout>
         <div className="blurb">
           Purchase a gift card to help your favorite NYC restaurants survive
           COVID-19!
@@ -57,37 +49,7 @@ const Home = () => {
           decent solution. The choice to invest in a future meal gives
           restaurant owners something to work with in the interim." -Eater
         </div>
-        <div className="fundraiserInfo">
-          <div className="fundraiserDescription">
-            Some restaurants have started relief funds as well to support their
-            staff. Here are a few we've come across so far (to be updated):
-          </div>
-          <div className="fundraiserLinks">
-            <a
-              href="https://www.gofundme.com/f/aska-employee-relief-fund"
-              target="_blank"
-              rel="noopener"
-            >
-              Aska
-            </a>
-            <div className="divider">|</div>
-            <a
-              href="https://www.gofundme.com/f/295grandstreet"
-              target="_blank"
-              rel="noopener"
-            >
-              Four Horsemen
-            </a>
-            <div className="divider">|</div>
-            <a
-              href="https://www.gofundme.com/f/epicurean-family-support-fund"
-              target="_blank"
-              rel="noopener"
-            >
-              L'Artusi (Epicurean)
-            </a>
-          </div>
-        </div>
+
         <div className="searchContainer">
           <Input
             value={searchValue}
@@ -107,19 +69,13 @@ const Home = () => {
             </div>
           )}
         </div>
-        <Footer />
-      </div>
+      </Layout>
       <style jsx>{`
         :global(body) {
           font-family: "Martel Sans", sans-serif;
         }
-        .container {
-          margin: auto;
-          max-width: 1024px;
-        }
         .blurb {
           font-size: 18px;
-          padding: 0 12px;
           margin-bottom: 24px;
         }
         .quote {
@@ -128,27 +84,13 @@ const Home = () => {
           margin-bottom: 24px;
           padding: 0 36px;
         }
-        .fundraiserInfo {
-          margin-bottom: 24px;
-          padding: 0 12px;
-        }
-        .fundraiserDescription {
-          margin-bottom: 12px;
-        }
-        .fundraiserLinks {
-          display: flex;
-          justify-content: center;
-        }
-        .divider {
-          margin: 0 8px;
-        }
         .searchContainer {
           margin-bottom: 24px;
-          padding: 0 12px;
         }
         .restaurantCardsContainer {
           display: flex;
           flex-wrap: wrap;
+          margin: 0 -12px;
         }
         .emptyResult {
           margin-bottom: 24px;
@@ -159,4 +101,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default IndexPage;

@@ -119,7 +119,19 @@ const Home = () => {
             </div>
           )}
         </div>
-        <div className="footer">Contact: hello@menurescu.com</div>
+        <div className="footer">
+          <div>
+            Add a restaurant:{" "}
+            <a
+              href="https://forms.gle/LF1qfdCH6JDmQL9c6"
+              target="_blank"
+              rel="noopener"
+            >
+              https://forms.gle/LF1qfdCH6JDmQL9c6
+            </a>
+          </div>
+          <div>Contact: hello@menurescu.com</div>
+        </div>
       </div>
       <style jsx>{`
         :global(body) {
@@ -177,11 +189,13 @@ const Home = () => {
           flex-wrap: wrap;
         }
         .emptyResult {
+          margin-bottom: 24px;
           padding: 0 12px;
         }
         .footer {
+          align-items: center;
           display: flex;
-          justify-content: center;
+          flex-direction: column;
           margin-bottom: 36px;
         }
       `}</style>

@@ -12,6 +12,8 @@ const Layout = ({ children }) => {
       <Footer />
       <style jsx>{`
         .content {
+          display: flex;
+          flex-direction: column;
           min-height: 78vh;
         }
       `}</style>

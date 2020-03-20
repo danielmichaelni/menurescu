@@ -9,9 +9,7 @@ import { Restaurant } from "../types";
 import { initGA, logPageView } from "../utils/analytics";
 
 const IndexPage = () => {
-  const restaurantsWithGiftCards: Restaurant[] = data.restaurants.filter(
-    restaurant => restaurant.giftcardUrl
-  );
+  const restaurantsWithGiftCards: Restaurant[] = data.restaurants;
   const neighborhoods = [
     ...new Set(
       restaurantsWithGiftCards.map(restaurant => restaurant.neighborhood)
@@ -64,7 +62,7 @@ const IndexPage = () => {
           <Input
             value={searchValue}
             onChange={handleChange}
-            placeholder="Search for a gift card..."
+            placeholder="Search for a spot..."
             prefix={<SearchOutlined />}
             size="large"
           />

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FacebookOutlined, TwitterOutlined } from "@ant-design/icons";
+import { FacebookFilled, TwitterOutlined } from "@ant-design/icons";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
 
 import { logEvent } from "../utils/analytics";
@@ -21,12 +21,6 @@ const Header = () => {
               </Link>
             </div>
             <div className="group">
-              <Link href="/relief-funds">
-                <a className="link">
-                  <div>Relief funds</div>
-                </a>
-              </Link>
-              {/* <div className="shareLabel">Spread the word:</div> */}
               <div className="shareButton">
                 <TwitterShareButton
                   className="shareButton"
@@ -43,7 +37,7 @@ const Header = () => {
               </div>
               <div className="shareButton">
                 <FacebookShareButton url="https://menurescu.com">
-                  <FacebookOutlined
+                  <FacebookFilled
                     style={{ color: "#3b5998", fontSize: 20 }}
                     onClick={() => {
                       trackShare("facebook");
@@ -81,20 +75,6 @@ const Header = () => {
         @media screen and (max-width: 480px) {
           .logo {
             margin-right: 24px;
-          }
-        }
-        .link {
-          color: #000;
-          font-weight: 500;
-          margin-right: 12px;
-        }
-        .shareLabel {
-          // position: relative;
-          // top: -2px;
-        }
-        @media screen and (max-width: 480px) {
-          .shareLabel {
-            display: none;
           }
         }
         .shareButton {

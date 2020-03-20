@@ -1,9 +1,9 @@
+import Link from "next/link";
 import { Card } from "antd";
 import { FC, MouseEvent } from "react";
 
 import { Restaurant } from "../types";
 import { logEvent } from "../utils/analytics";
-import Link from "next/link";
 import { formatRestaurantNameForUrl } from "../utils/utils";
 
 interface Props {
@@ -23,55 +23,53 @@ const RestaurantCard: FC<Props> = ({ restaurant }) => {
           href="/restaurant/[name]"
           as={`/restaurant/${formatRestaurantNameForUrl(restaurant.name)}`}
         >
-          <a>
-            <Card
-              cover={
-                <img
-                  src={restaurant.image}
-                  height="160px"
-                  style={{ objectFit: "cover" }}
-                />
-              }
-              style={{ cursor: "pointer" }}
+          <Card
+            cover={
+              <img
+                src={restaurant.image}
+                height="160px"
+                style={{ objectFit: "cover" }}
+              />
+            }
+            style={{ cursor: "pointer" }}
+          >
+            <div title={restaurant.name} className="restaurantName">
+              {restaurant.name}
+            </div>
+            <div
+              title={restaurant.neighborhood}
+              className="restaurantNeighborhood"
             >
-              <div title={restaurant.name} className="restaurantName">
-                {restaurant.name}
-              </div>
-              <div
-                title={restaurant.neighborhood}
-                className="restaurantNeighborhood"
-              >
-                {restaurant.neighborhood}
-              </div>
-              <div className="links">
-                {restaurant.giftcardUrl && (
-                  <a
-                    className="link"
-                    onClick={trackClick}
-                    href={restaurant.giftcardUrl}
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <div>Gift card</div>
-                  </a>
-                )}
-                {restaurant.giftcardUrl && restaurant.reliefFundUrl && (
-                  <div className="divider">•</div>
-                )}
-                {restaurant.reliefFundUrl && (
-                  <a
-                    className="link"
-                    onClick={trackClick}
-                    href={restaurant.reliefFundUrl}
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <div>Relief fund</div>
-                  </a>
-                )}
-              </div>
-            </Card>
-          </a>
+              {restaurant.neighborhood}
+            </div>
+            <div className="links">
+              {restaurant.giftcardUrl && (
+                <a
+                  className="link"
+                  onClick={trackClick}
+                  href={restaurant.giftcardUrl}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <div>Gift card</div>
+                </a>
+              )}
+              {restaurant.giftcardUrl && restaurant.reliefFundUrl && (
+                <div className="divider">•</div>
+              )}
+              {restaurant.reliefFundUrl && (
+                <a
+                  className="link"
+                  onClick={trackClick}
+                  href={restaurant.reliefFundUrl}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <div>Relief fund</div>
+                </a>
+              )}
+            </div>
+          </Card>
         </Link>
       </div>
       <style jsx>{`

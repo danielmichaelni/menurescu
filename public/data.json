@@ -1,6 +1,12 @@
 {
   "restaurants": [
     {
+      "name": "Anfora",
+      "neighborhood": "West Village",
+      "image": "https://static.squarespace.com/static/52ab12c8e4b0cfa181552e3e/t/52ab17f1e4b0291b4d28c908/1386944497952/Outdoors.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/epicurean-family-support-fund"
+    },
+    {
       "name": "Anton's",
       "neighborhood": "West Village",
       "image": "https://infatuation.imgix.net/media/images/reviews/antons/banners/1580401149.91.jpg?auto=format&h=840&w=1336",
@@ -33,10 +39,94 @@
       "reliefFundUrl": "https://www.gofundme.com/f/banter-family-support"
     },
     {
+      "name": "Blue Ribbon Brasserie",
+      "neighborhood": "Soho, Park Slope",
+      "image": "https://d37219swed47g7.cloudfront.net/media/reviews/blue-ribbon-brasserie/banners/Blue-Ribbon-Brasserie_0.jpg",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
+    },
+    {
+      "name": "Blue Ribbon Downing Street Bar",
+      "neighborhood": "West Village",
+      "image": "https://infatuation.imgix.net/media/images/reviews/blue-ribbon-downing-street-bar/banners/1566234917.43.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
+    },
+    {
+      "name": "Blue Ribbon Federal Grill",
+      "neighborhood": "FiDi",
+      "image": "https://lh3.googleusercontent.com/proxy/ylD1Vclg8NzmH6qjHO3v6PVkdlf4RSFd9IXu7GSNqMm8mVmUfMtPm4pJ0kCzSzROqj14SBpDHq7dttedkuP8VSep9X7-5ObXiK13NWpsZUvsy_6rSLO9PCOE0ZQxJnxxrqsYdTlP3Ufp",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
+    },
+    {
+      "name": "Blue Ribbon Fried Chicken",
+      "neighborhood": "East Village",
+      "image": "https://lh3.googleusercontent.com/proxy/bHh9EyQ4Dv1XUkwXXrHBaS122JLkDUaUu6kGH_kP7FOPK7jQ-jaw99U0YDGl4jhhacLYwB3or2YosBNm_WlJYIs033LQsELEMZm1Ppnrd9YLC42h",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
+    },
+    {
+      "name": "Blue Ribbon Kanpai Garden",
+      "neighborhood": "LES",
+      "image": "https://images.squarespace-cdn.com/content/v1/52fd7162e4b0d3e64dc29631/1525888428003-TDVOH1Z2BJDD38PD69SO/ke17ZwdGBToddI8pDm48kJeL5MvlPgMjrtsZeUPc06t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaZEneVM6N5hvgJmGV2UC3-aiJT8vALZJClrgL0AeGLmTA/_DSC6611_HDR+%282%29+2.jpg",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
+    },
+    {
+      "name": "Blue Ribbon Sushi",
+      "neighborhood": "Soho",
+      "image": "https://images.squarespace-cdn.com/content/v1/52fd7162e4b0d3e64dc29631/1438806684589-TJSH9ZF3SM3MB32ZMXA7/ke17ZwdGBToddI8pDm48kKbB3HVPj8MusMvvDuC0KfpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIgqg2P3EVN5nOpwbBoMkSuSL4jAoz49xjOTMrNGODG4gKMshLAGzx4R3EDFOm1kBS/blue_ribbon_sushi_izakaya_carousel_02.jpg",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
+    },
+    {
+      "name": "Blue Ribbon Sushi Bar & Grill",
+      "neighborhood": "Midtown",
+      "image": "https://images.squarespace-cdn.com/content/v1/52fd7162e4b0d3e64dc29631/1524676394302-CE3NM9TK2INF4AEH8LM0/ke17ZwdGBToddI8pDm48kNRx690jFrdwOZ0U3JcsQ5cUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcpXzWwUbtkjlb6mqcfBcDiYH0kt9iKNoRShC3lxwW_Fg7RvnPdmkFNmFAPuvLc88s/Dining+Room+v2.jpeg",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
+    },
+    {
+      "name": "Blue Ribbon Sushi Izakaya",
+      "neighborhood": "LES",
+      "image": "https://images.squarespace-cdn.com/content/v1/52fd7162e4b0d3e64dc29631/1438893878057-DUWR464FY2MGXN0ZD77Q/ke17ZwdGBToddI8pDm48kKbB3HVPj8MusMvvDuC0KfpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIgqg2P3EVN5nOpwbBoMkSuSL4jAoz49xjOTMrNGODG4gKMshLAGzx4R3EDFOm1kBS/blue_ribbon_sushi_izakaya_carousel_01.jpg",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
+    },
+    {
+      "name": "Blue Smoke",
+      "neighborhood": "Flatiron",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/16/e2/f6/e6/dinner-at-blue-smoke.jpg",
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
+    },
+    {
+      "name": "Cafe Altro Paradiso",
+      "neighborhood": "Soho",
+      "image": "https://cdn.vox-cdn.com/thumbor/RdE8uFL0-6JbMlFyIiOdYKSA9WM=/0x64:1200x739/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/49572531/20160227-Cafe_Altro_Paradiso-1.0.0.jpg",
+      "giftcardUrl": "https://www.toasttab.com/cafe-altro-paradiso/giftcards",
+      "reliefFundUrl": "https://www.gofundme.com/f/yafzh-matter-house"
+    },
+    {
+      "name": "Caffe Marchio",
+      "neighborhood": "Flatiron",
+      "image": "https://images.getbento.com/accounts/6b402d952a0be4cac4a4260bfb27ba51/mediausers/custom_fields_galleries/images/qQ47RVRvSg6Wn3jDzc8E_Caffe%20Marchio%20October%202018%20Peter%20Garritano%20(9).jpg?w=1200&fit=crop&auto=compress,format&h=600",
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
+    },
+    {
       "name": "Carbone",
       "neighborhood": "Greenwich Village",
       "image": "https://media.timeout.com/images/100660243/image.jpg",
       "giftcardUrl": "https://ecommerce.custcon.com//Selection.aspx?c=cf2f5e30-49b8-4112-9f97-7c9eaad6ca2a"
+    },
+    {
+      "name": "Cedric's at the Shed",
+      "neighborhood": "Hudson Yards",
+      "image": "https://cdn.vox-cdn.com/thumbor/UrQq0weWWi6bRtieZPCfJlbDgLo=/0x0:5090x3393/1200x675/filters:focal(2138x1290:2952x2104)/cdn.vox-cdn.com/uploads/chorus_image/image/63654261/20190419_gh_cedrics_11.0.jpg",
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "Ciao, Gloria",
@@ -47,7 +137,7 @@
     {
       "name": "Contra",
       "neighborhood": "LES",
-      "image": "https://www.meltingbutter.com/wp-content/uploads/2013/12/268-blog_nyc-hotspot-find-contra2.jpg",
+      "image": "https://www.theworlds50best.com/discovery/filestore/jpg/Contra-NewYork-USA-01.jpg",
       "reliefFundUrl": "https://www.gofundme.com/f/contrawildairpeoples-workers-fund"
     },
     {
@@ -66,13 +156,15 @@
       "name": "Crown Shy",
       "neighborhood": "FiDi",
       "image": "https://infatuation.imgix.net/media/images/reviews/crown-shy/banners/1575668435.98.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://www.crownshy.nyc/giftcard/"
+      "giftcardUrl": "https://www.crownshy.nyc/giftcard/",
+      "notes": "They're adding an additional 20 percent on top of any dollar amount you purchase from $5 to $500."
     },
     {
       "name": "Daily Provisions",
       "neighborhood": "Flatiron",
       "image": "https://infatuation.imgix.net/media/images/reviews/daily-provisions/banners/1508192874.99.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "Ess-a-Bagel",
@@ -81,10 +173,24 @@
       "giftcardUrl": "https://www.toasttab.com/ess-a-bagel-3rd-ave/giftcards"
     },
     {
+      "name": "Estela",
+      "neighborhood": "Nolita",
+      "image": "https://assets3.thrillist.com/v1/image/955143/size/tmg-venue_carousel_mobile.jpg",
+      "giftcardUrl": "https://www.toasttab.com/estelanyc/giftcards",
+      "reliefFundUrl": "https://www.gofundme.com/f/yafzh-matter-house"
+    },
+    {
       "name": "Fish Cheeks",
       "neighborhood": "East Village",
       "image": "https://infatuation.imgix.net/media/images/reviews/fish-cheeks/banners/1581602787.2.jpg?auto=format&h=840&w=1336",
       "giftcardUrl": "http://www.fishcheeksnyc.com/gift-card"
+    },
+    {
+      "name": "Flora Bar",
+      "neighborhood": "UES",
+      "image": "https://static01.nyt.com/images/2017/01/11/dining/360-FLORABAR-1/360-FLORABAR-1-superJumbo.jpg",
+      "giftcardUrl": "https://www.toasttab.com/flora-bar/giftcards",
+      "reliefFundUrl": "https://www.gofundme.com/f/yafzh-matter-house"
     },
     {
       "name": "Four Horsemen",
@@ -100,10 +206,17 @@
       "giftcardUrl": "https://squareup.com/gift/QQVB9FDKP6JFZ/order"
     },
     {
+      "name": "Good Thanks",
+      "neighborhood": "LES",
+      "image": "https://www.tipstereats.com/static/team/2018/0809/15338056922331.jpg",
+      "giftcardUrl": "https://www.goodthanksnyc.com/shop"
+    },
+    {
       "name": "Gramercy Tavern",
       "neighborhood": "Flatiron",
       "image": "https://infatuation.imgix.net/media/reviews/gramercy-tavern/banners/Gramercy-Tavern1_0.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "Hunky Dory ",
@@ -116,6 +229,13 @@
       "neighborhood": "LES",
       "image": "https://www.tipstereats.com/static/team/2018/0912/15367441958036.jpg",
       "giftcardUrl": "https://www.iceandvice.com/shop/gift-card-2"
+    },
+    {
+      "name": "Intersect by Lexus",
+      "neighborhood": "Meatpacking",
+      "image": "https://images.getbento.com/accounts/e8e716e949a07d46641433b10f5dcfc3/media/images/5528DavidJosephMilkNYCIntersect_0O9A9145.jpg?w=1800&fit=max&auto=compress,format&h=1800",
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "June Wine Bar",
@@ -176,7 +296,8 @@
       "name": "Maialino",
       "neighborhood": "Flatiron",
       "image": "https://infatuation.imgix.net/media/reviews/maialino-2/banners/Maialino1_0.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "Maison Yaki",
@@ -185,10 +306,18 @@
       "reliefFundUrl": "https://www.gofundme.com/f/olmsted-amp-maison-yaki-staff-disaster-relief-fund"
     },
     {
+      "name": "Manhatta",
+      "neighborhood": "Fidi",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/13/bd/55/c7/dining-room.jpg",
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
+    },
+    {
       "name": "Marta",
       "neighborhood": "Nomad",
       "image": "https://infatuation.imgix.net/media/reviews/marta/banners/Marta20_Alice-Gao_0.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "Minetta Tavern",
@@ -206,7 +335,8 @@
       "name": "Oiji",
       "neighborhood": "East Village",
       "image": "https://images.squarespace-cdn.com/content/v1/54db0902e4b072be6d6f881d/1502758906116-8ER258QUHYLVJI7AF6NH/ke17ZwdGBToddI8pDm48kPaNdQEjCC_M_Owt-nUCTkV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0ivq7Q1ckvJa8MA8qNUlEOYJeIcxQ2B1eaUivst1pxvXb-hUg53-GR7YQtfDraRp5g/uni_15.jpg?format=1000w",
-      "giftcardUrl": "https://www.toasttab.com/oiji-new-york/giftcards"
+      "giftcardUrl": "https://www.toasttab.com/oiji-new-york/giftcards",
+      "reliefFundUrl": "https://www.gofundme.com/f/oijinyc"
     },
     {
       "name": "Olmsted",
@@ -228,6 +358,13 @@
       "reliefFundUrl": "https://www.gofundme.com/f/contrawildairpeoples-workers-fund"
     },
     {
+      "name": "Pig & Khao",
+      "neighborhood": "LES",
+      "image": "https://images.squarespace-cdn.com/content/v1/57a4cb56725e250aaed50f41/1479751286985-HMCKBCPXD0W8JN9BLHHP/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/CMC_2771.jpg?format=2500w",
+      "giftcardUrl": "https://www.pigandkhao.com/gift-cards",
+      "notes": "All gift cards are 25% off"
+    },
+    {
       "name": "Pizza Moto",
       "neighborhood": "Red Hook",
       "image": "https://infatuation.imgix.net/media/images/reviews/pizza-moto-1/banners/1530135008.76.jpg?auto=format&h=840&w=1336",
@@ -237,7 +374,8 @@
       "name": "Porchlight",
       "neighborhood": "Hudson Yards",
       "image": "https://infatuation.imgix.net/media/reviews/porchlight/banners/Porchlight-NY_0.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "Prune",
@@ -282,6 +420,13 @@
       "reliefFundUrl": "https://www.gofundme.com/f/sonnyboy-staff-support"
     },
     {
+      "name": "Sushi by Bou",
+      "neighborhood": "Flatiron",
+      "image": "https://images.squarespace-cdn.com/content/v1/557b1b8ae4b01365322fdd14/1502468809510-VCZN4R9MYZ8IQTKTTAKH/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_6149.jpg",
+      "giftcardUrl": "https://www.toasttab.com/by-bou-gift-cards-28-west-36th-street/giftcards",
+      "notes": "50% of giftcard proceeds go directly to employees. Redeemable at any Sushi by Bou, Sushi by Bae, or or Sushi Suite location."
+    },
+    {
       "name": "Sushi of Gari",
       "neighborhood": "UES",
       "image": "https://infatuation.imgix.net/media/reviews/sushi-of-gari/banners/Sushi-of-Gari-78th_0.jpg?auto=format&h=840&w=1336",
@@ -297,13 +442,15 @@
       "name": "The Modern",
       "neighborhood": "Midtown",
       "image": "https://infatuation.imgix.net/media/reviews/the-modern/banners/The-Modern_0.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
-      "name": "Tipsy Scoop",
-      "neighborhood": "Kips Bay",
-      "image": "https://s3.amazonaws.com/cdn.tipsyscoop.com/images/fygflightpic.jpg",
-      "giftcardUrl": "https://www.tipsyscoop.com/product/egift-card/gift-cards-and-swag"
+      "name": "The Ribbon",
+      "neighborhood": "Midtown, UWS",
+      "image": "https://cdn.vox-cdn.com/thumbor/1k4SSc1xFZYzQjDjjnf-0JRi1qY=/0x0:1600x1200/1200x800/filters:focal(672x472:928x728)/cdn.vox-cdn.com/uploads/chorus_image/image/62968943/IMGP5787_8_9.0.jpg",
+      "giftcardUrl": "https://blueribbonrestaurants.myguestaccount.com/guest/egift",
+      "notes": "$25 off every $100 giftcard"
     },
     {
       "name": "Uncle Boons",
@@ -315,7 +462,15 @@
       "name": "Union Square Cafe",
       "neighborhood": "Flatiron",
       "image": "https://infatuation.imgix.net/media/images/reviews/union-square-cafe/banners/1487103094.56.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
+    },
+    {
+      "name": "Untitled at the Whitney",
+      "neighborhood": "Meatpacking",
+      "image": "https://d37219swed47g7.cloudfront.net/media/reviews/untitled-at-the-whitney/banners/Untitled-at-The-Whitney_0.jpg",
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "Via Carota",
@@ -328,6 +483,13 @@
       "neighborhood": "Dumbo",
       "image": "https://infatuation.imgix.net/media/images/reviews/vinegar-hill-house/vinegarhill-3951.jpg?auto=format&h=890&w=1336",
       "giftcardUrl": "https://www.vinegarhillhouse.com/store/gift-cards/"
+    },
+    {
+      "name": "Vini e Fritti",
+      "neighborhood": "Nomad",
+      "image": "https://images.getbento.com/accounts/e8e716e949a07d46641433b10f5dcfc3/media/images/19762Vini_e_Fritti_October_2018_Peter_Garritano_3.jpg?w=1800&fit=max&auto=compress,format&h=1800",
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
+      "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
       "name": "Wildair",

@@ -50,6 +50,7 @@ const RestaurantPage = () => {
             </a>
           </div>
         )}
+        {restaurant.notes && <div>{restaurant.notes}</div>}
       </Layout>
       <style jsx>{`
         .title {

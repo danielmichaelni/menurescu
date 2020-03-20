@@ -1,20 +1,28 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import Container from "./Container";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Header />
-      <Container>
+      <div className="container">
+        <Header />
         <div className="content">{children}</div>
-      </Container>
-      <Footer />
+        <Footer />
+      </div>
       <style jsx>{`
+        .container {
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+        }
         .content {
           display: flex;
           flex-direction: column;
-          min-height: 78vh;
+          flex-grow: 1;
+          margin: auto;
+          max-width: 992px;
+          padding: 0 12px;
+          width: 100%;
         }
       `}</style>
     </>

@@ -9,25 +9,21 @@ import { Restaurant } from "../types";
 import { initGA, logPageView } from "../utils/analytics";
 
 const IndexPage = () => {
-  const restaurantsWithGiftCards: Restaurant[] = data.restaurants;
+  const restaurants: Restaurant[] = data.restaurants;
   const neighborhoods = [
-    ...new Set(
-      restaurantsWithGiftCards.map(restaurant => restaurant.neighborhood)
-    )
+    ...new Set(restaurants.map(restaurant => restaurant.neighborhood))
   ].sort();
 
   const [searchValue, setSearchValue] = useState("");
   const [neighborhoodFilter, setNeighborhoodFilter] = useState<string[]>([]);
-  const [filteredRestaurants, setFilteredRestaurants] = useState(
-    restaurantsWithGiftCards
-  );
+  const [filteredRestaurants, setFilteredRestaurants] = useState(restaurants);
   useEffect(() => {
     initGA();
     logPageView();
   }, []);
   useEffect(() => {
     setFilteredRestaurants(
-      restaurantsWithGiftCards
+      restaurants
         .filter(restaurant => {
           if (searchValue === "") return true;
           return restaurant.name
@@ -49,8 +45,8 @@ const IndexPage = () => {
     <>
       <Layout>
         <div className="blurb">
-          Purchase a gift card to help your favorite NYC restaurants survive
-          COVID-19!
+          Purchase a gift card and/or donate to a relief fund to help your
+          favorite NYC restaurants survive COVID-19!
         </div>
         <div className="quote">
           "For those looking for a small way to support local businesses while

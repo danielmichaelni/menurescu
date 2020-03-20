@@ -4,4 +4,5 @@ export interface Restaurant {
   image: string;
   giftcardUrl?: string;
   reliefFundUrl?: string;
+  notes?: string;
 }

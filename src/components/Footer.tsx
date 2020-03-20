@@ -16,7 +16,7 @@ const Footer = () => {
           align-items: center;
           display: flex;
           flex-direction: column;
-          padding-bottom: 48px;
+          padding-bottom: 36px;
         }
       `}</style>
     </>

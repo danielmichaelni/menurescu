@@ -9,15 +9,15 @@
   },
   "dependencies": {
     "antd": "^4.0.3",
-    "next": "9.3.1",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "next": "^9.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "react-share": "^4.1.0"
   },
   "devDependencies": {
-    "@types/node": "^13.9.1",
-    "@types/react": "^16.9.23",
+    "@types/node": "^13.9.2",
+    "@types/react": "^16.9.25",
     "typescript": "^3.8.3"
   }
 }

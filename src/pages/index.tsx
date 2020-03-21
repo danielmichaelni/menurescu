@@ -56,6 +56,7 @@ const IndexPage = () => {
         </div>
         <div className="searchContainer">
           <Input
+            allowClear
             value={searchValue}
             onChange={handleChange}
             placeholder="Search for a spot..."
@@ -65,6 +66,7 @@ const IndexPage = () => {
         </div>
         <div className="neighborhoodContainer">
           <Select
+            allowClear
             mode="multiple"
             onChange={(value: string[]) => {
               setNeighborhoodFilter(value);

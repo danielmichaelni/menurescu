@@ -7,7 +7,6 @@ const Layout = ({ children }) => {
       <div className="container">
         <Header />
         <div className="content">{children}</div>
-        <Footer />
       </div>
       <style jsx>{`
         .container {

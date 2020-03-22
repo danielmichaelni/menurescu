@@ -7,6 +7,7 @@ import RestaurantCard from "../components/RestaurantCard";
 import data from "../../public/data.json";
 import { Restaurant } from "../types";
 import { initGA, logPageView } from "../utils/analytics";
+import Footer from "../components/Footer";
 
 const IndexPage = () => {
   const restaurants: Restaurant[] = data.restaurants;
@@ -45,15 +46,10 @@ const IndexPage = () => {
     <>
       <Layout>
         <div className="blurb">
-          Purchase a gift card and/or donate to a relief fund to help your
+          Donate to a relief fund and/or purchase a gift card to help your
           favorite NYC restaurants survive COVID-19!
         </div>
-        <div className="quote">
-          "For those looking for a small way to support local businesses while
-          also choosing to social distance, buying restaurant gift cards is a
-          decent solution. The choice to invest in a future meal gives
-          restaurant owners something to work with in the interim." -Eater
-        </div>
+        <Footer />
         <div className="searchContainer">
           <Input
             allowClear
@@ -100,12 +96,6 @@ const IndexPage = () => {
         .blurb {
           font-size: 18px;
           margin-bottom: 24px;
-        }
-        .quote {
-          color: #686868;
-          font-style: italic;
-          margin-bottom: 24px;
-          padding: 0 36px;
         }
         .searchContainer {
           margin-bottom: 12px;

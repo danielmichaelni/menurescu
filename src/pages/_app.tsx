@@ -13,10 +13,13 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="MenuRescu" />
+        <meta
+          property="og:title"
+          content="MenuRescu: A relief fund and gift card directory for NYC restaurants"
+        />
         <meta
           property="og:description"
-          content="Purchase a gift card and/or donate to a relief fund to help your favorite NYC restaurants survive COVID-19!"
+          content="Donate to a relief fund and/or purchase a gift card to help your favorite NYC restaurants survive COVID-19!"
         />
       </Head>
       <Component {...pageProps} />

@@ -12,7 +12,7 @@ import Footer from "../components/Footer";
 const IndexPage = () => {
   const restaurants: Restaurant[] = data.restaurants;
   const neighborhoods = [
-    ...new Set(restaurants.map(restaurant => restaurant.neighborhood))
+    ...new Set(restaurants.map((restaurant) => restaurant.neighborhood)),
   ].sort();
 
   const [searchValue, setSearchValue] = useState("");
@@ -25,13 +25,13 @@ const IndexPage = () => {
   useEffect(() => {
     setFilteredRestaurants(
       restaurants
-        .filter(restaurant => {
+        .filter((restaurant) => {
           if (searchValue === "") return true;
           return restaurant.name
             .toLowerCase()
             .includes(searchValue.toLowerCase());
         })
-        .filter(restaurant => {
+        .filter((restaurant) => {
           if (neighborhoodFilter.length === 0) return true;
           return neighborhoodFilter.includes(restaurant.neighborhood);
         })
@@ -71,7 +71,7 @@ const IndexPage = () => {
             size="large"
             style={{ width: "100%" }}
           >
-            {neighborhoods.map(neighborhood => (
+            {neighborhoods.map((neighborhood) => (
               <Select.Option key={neighborhood} value={neighborhood}>
                 {neighborhood}
               </Select.Option>
@@ -79,7 +79,7 @@ const IndexPage = () => {
           </Select>
         </div>
         <div className="restaurantCardsContainer">
-          {filteredRestaurants.map(restaurant => (
+          {filteredRestaurants.map((restaurant) => (
             <RestaurantCard key={restaurant.name} restaurant={restaurant} />
           ))}
           {filteredRestaurants.length === 0 && (

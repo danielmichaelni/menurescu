@@ -8,7 +8,7 @@ const RestaurantPage = () => {
   const router = useRouter();
   const { name } = router.query;
   const restaurant = data.restaurants.find(
-    restaurant => formatRestaurantNameForUrl(restaurant.name) === name
+    (restaurant) => formatRestaurantNameForUrl(restaurant.name) === name
   );
 
   if (restaurant === undefined) {

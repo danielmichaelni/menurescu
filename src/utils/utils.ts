@@ -5,7 +5,5 @@ const removePunctuation = (string: string) => {
 };
 
 export const formatRestaurantNameForUrl = (restaurantName: string) => {
-  return removePunctuation(restaurantName)
-    .toLowerCase()
-    .replace(/\s+/g, "-");
+  return removePunctuation(restaurantName).toLowerCase().replace(/\s+/g, "-");
 };

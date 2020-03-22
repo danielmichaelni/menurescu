@@ -43,20 +43,6 @@ const RestaurantCard: FC<Props> = ({ restaurant }) => {
               {restaurant.neighborhood}
             </div>
             <div className="links">
-              {restaurant.giftcardUrl && (
-                <a
-                  className="link"
-                  onClick={trackClick}
-                  href={restaurant.giftcardUrl}
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div>Gift card</div>
-                </a>
-              )}
-              {restaurant.giftcardUrl && restaurant.reliefFundUrl && (
-                <div className="divider">•</div>
-              )}
               {restaurant.reliefFundUrl && (
                 <a
                   className="link"
@@ -66,6 +52,20 @@ const RestaurantCard: FC<Props> = ({ restaurant }) => {
                   rel="noopener"
                 >
                   <div>Relief fund</div>
+                </a>
+              )}
+              {restaurant.giftcardUrl && restaurant.reliefFundUrl && (
+                <div className="divider">•</div>
+              )}
+              {restaurant.giftcardUrl && (
+                <a
+                  className="link"
+                  onClick={trackClick}
+                  href={restaurant.giftcardUrl}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <div>Gift card</div>
                 </a>
               )}
             </div>

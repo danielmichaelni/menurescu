@@ -34,18 +34,18 @@ const RestaurantPage = () => {
       <Layout>
         <div className="title">{restaurant.name}</div>
         <div className="neighborhood">{restaurant.neighborhood}</div>
-        {restaurant.giftcardUrl && (
-          <div className="row">
-            Gift cards sold{" "}
-            <a href={restaurant.giftcardUrl} target="_blank" rel="noopener">
-              here
-            </a>
-          </div>
-        )}
         {restaurant.reliefFundUrl && (
           <div className="row">
             Donate to the relief fund{" "}
             <a href={restaurant.reliefFundUrl} target="_blank" rel="noopener">
+              here
+            </a>
+          </div>
+        )}
+        {restaurant.giftcardUrl && (
+          <div className="row">
+            Gift cards sold{" "}
+            <a href={restaurant.giftcardUrl} target="_blank" rel="noopener">
               here
             </a>
           </div>

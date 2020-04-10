@@ -28,6 +28,7 @@ const RestaurantCard: FC<Props> = ({ restaurant }) => {
               <img
                 src={restaurant.image}
                 height="160px"
+                loading="lazy"
                 style={{ objectFit: "cover" }}
               />
             }

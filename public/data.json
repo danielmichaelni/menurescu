@@ -1,9 +1,40 @@
 {
   "restaurants": [
     {
+      "name": "18th Room",
+      "neighborhood": "Chelsea",
+      "image": "https://rabda2.s3.amazonaws.com/images/images/51915/large/4.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/bathtub-gin-amp-the-18th-room-staff-relief-fund"
+    },
+    {
+      "name": "ABC Cocina",
+      "neighborhood": "Flatiron",
+      "image": "https://fabric.imgix.net/ABCCocina/AbcCocinaHero2.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/jeangeorges-restaurant-employee-relief-fund"
+    },
+    {
+      "name": "ABC Kitchen",
+      "neighborhood": "Flatiron",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1442947586%2FNYC0915-union-square-abc-kitchen.jpg%3Fitok%3DJU0ZIxsY",
+      "reliefFundUrl": "https://www.gofundme.com/f/jeangeorges-restaurant-employee-relief-fund"
+    },
+    {
+      "name": "abcV",
+      "neighborhood": "Flatiron",
+      "image": "https://www.jean-georges.com/content/slides/2017-04-25-joe-h-sp-abcv-pr-029-r02-web.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/jeangeorges-restaurant-employee-relief-fund"
+    },
+    {
+      "name": "Acme",
+      "neighborhood": "Noho",
+      "image": "https://d3emaq2p21aram.cloudfront.net/media/cache/venue_carousel/uploads/venues/35311/originals/IMG_0746.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/staff-disaster-relief-fund"
+    },
+    {
       "name": "Adda Indian Canteen",
       "neighborhood": "Long Island City",
       "image": "https://infatuation.imgix.net/media/images/reviews/adda/banners/1542753344.39.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://www.addanyc.com/support",
       "reliefFundUrl": "https://www.gofundme.com/f/adda-rahi-amp-the-masalawala-support-fund",
       "notes": "Dining bonds at 25% discount"
     },
@@ -20,6 +51,12 @@
       "reliefFundUrl": "https://www.gofundme.com/f/alameda-staff-support"
     },
     {
+      "name": "Alta Calidad",
+      "neighborhood": "Prospect Heights",
+      "image": "https://media.timeout.com/images/105331551/image.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/alta-calidad-employee-relief-fund"
+    },
+    {
       "name": "Anfora",
       "neighborhood": "West Village",
       "image": "https://static.squarespace.com/static/52ab12c8e4b0cfa181552e3e/t/52ab17f1e4b0291b4d28c908/1386944497952/Outdoors.jpg",
@@ -30,6 +67,20 @@
       "neighborhood": "West Village",
       "image": "https://infatuation.imgix.net/media/images/reviews/antons/banners/1580401149.91.jpg?auto=format&h=840&w=1336",
       "giftcardUrl": "https://www.antonsnyc.com/gift-cards/"
+    },
+    {
+      "name": "Archer & Goat",
+      "neighborhood": "Harlem",
+      "image": "https://wswd-wordpress-production.s3.amazonaws.com/content/uploads/2019/04/08155208/Archer-Goat-NYC-Yelp.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/1xte9gaouo"
+    },
+    {
+      "name": "Ardesia Wine Bar",
+      "neighborhood": "Hell's Kitchen",
+      "image": "https://infatuation.imgix.net/media/reviews/ardesia/banners/Ardesia_0.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://www.ardesia-ny.com/giftcertificates/ardesia-gift-certificate",
+      "reliefFundUrl": "https://www.gofundme.com/f/support-the-hourly-team-at-ardesia",
+      "merchLink": "https://www.ardesia-ny.com/"
     },
     {
       "name": "Aska",
@@ -43,7 +94,8 @@
       "name": "Atla",
       "neighborhood": "Noho",
       "image": "https://cdn.vox-cdn.com/thumbor/yXbvKkei9f6sVZMnJlabmmrGqOI=/0x0:960x669/1200x800/filters:focal(404x259:556x411)/cdn.vox-cdn.com/uploads/chorus_image/image/59215783/17457251_1433187460077985_7953813422974924918_n.0.jpg",
-      "giftcardUrl": "https://www.atlanyc.com/store/gift-cards/"
+      "giftcardUrl": "https://www.atlanyc.com/store/gift-cards/",
+      "reliefFundUrl": "https://www.gofundme.com/f/cosme-atla-staff-support"
     },
     {
       "name": "Atoboy",
@@ -58,16 +110,35 @@
       "reliefFundUrl": "https://www.gofundme.com/f/support-for-atofam"
     },
     {
+      "name": "Augustine",
+      "neighborhood": "FiDi",
+      "image": "https://storage.googleapis.com/zagat-user/Augustine_NYC_Int3_LizClayman_103116.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/augustine-employees-fund-raising?member=4033082&utm_medium=email&utm_source=product&utm_campaign=p_email%2Binviteacceptedemailtoteammember"
+    },
+    {
+      "name": "B&H Dairy",
+      "neighborhood": "East Village",
+      "image": "https://astorplace.nyc/sites/default/files/styles/slideshow/public/bhdairy.jpg?itok=I0JMJiFa",
+      "reliefFundUrl": "https://www.gofundme.com/f/help-bamph-dairy-restaurant-survive-covid19?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet"
+    },
+    {
       "name": "Babs",
       "neighborhood": "Greenwich Village",
       "image": "https://static01.nyt.com/images/2019/10/15/dining/15REST-BABS-slide-6Y22/15REST-BABS-slide-6Y22-superJumbo.jpg",
       "reliefFundUrl": "https://www.gofundme.com/f/mimi-amp-babs-staff-relief-fund"
     },
     {
+      "name": "Balaboosta",
+      "neighborhood": "West Village",
+      "image": "https://infatuation.imgix.net/media/images/reviews/balaboosta-west-village/banners/1578410116.18.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://ecommerce.custcon.com/Purchase/Select?c=7162ecaf-52ae-4c2f-a276-1435157d51d8"
+    },
+    {
       "name": "Balthazar",
       "neighborhood": "Soho",
       "image": "https://infatuation.imgix.net/media/images/reviews/balthazar/banners/1533255770.07.jpg?auto=format&crop=focalpoint&fit=crop&fp-x=0.47&fp-y=0.44&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=f7c40669-ff96-4aa8-971e-2139504200ee"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=f7c40669-ff96-4aa8-971e-2139504200ee",
+      "reliefFundUrl": "https://www.gofundme.com/f/balthazar-relief-fund-cv19?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1"
     },
     {
       "name": "Banter",
@@ -77,10 +148,29 @@
       "reliefFundUrl": "https://www.gofundme.com/f/banter-family-support"
     },
     {
+      "name": "Bar Centrale",
+      "neighborhood": "Midtown West",
+      "image": "https://www.timessquarenyc.org/sites/default/files/styles/location_teaser/public/Dining_FrankieJohnnies_1-compressor.jpg?itok=kApYlhfR",
+      "reliefFundUrl": "https://www.gofundme.com/f/help-the-joe-allen-orso-and-bar-centrale-staff"
+    },
+    {
       "name": "Bar Goto",
       "neighborhood": "LES",
       "image": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1687,w_3000,x_0,y_0/dpr_1.5/c_limit,w_1600/fl_lossy,q_auto/v1582079681/200218-Rothbaum-Scout-Bar-Goto-Niban-tease_lbegk3",
       "reliefFundUrl": "https://www.gofundme.com/f/rbj22h-bar-goto-employee-fund"
+    },
+    {
+      "name": "Bar Pisellano",
+      "neighborhood": "West Village",
+      "image": "https://cdn.vox-cdn.com/thumbor/4FeWFxLfNDI7a3EPOsoYrfOPMq4=/0x0:3000x2000/1200x0/filters:focal(0x0:3000x2000):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/16297354/bar_pisellino_sgroppino_001.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/via-carota-family-fund?utm_source=facebook&utm_medium=social&utm_campaign=p_cp+share-sheet&fbclid=IwAR0f2ZSvh-kF3xB00cnw7HPs6eyQpPCq9yKQvuOyYSqnFjTS_Hik2QAZn9I"
+    },
+    {
+      "name": "Bar Wayo",
+      "neighborhood": "FiDi",
+      "image": "https://images.squarespace-cdn.com/content/v1/59d130acf5e23117283d780c/1564591422201-EORLOJQRYP6E02QIP8KI/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Spread-2-%E2%80%93-Andrew-Bezek.jpg",
+      "giftcardUrl": "https://momofuku.myguestaccount.com/guest/egift",
+      "reliefFundUrl": "https://www.gofundme.com/f/momofuku-employees-relief-fund"
     },
     {
       "name": "Barano",
@@ -90,10 +180,52 @@
       "reliefFundUrl": "https://www.gofundme.com/f/barano-employee-fund"
     },
     {
+      "name": "Bathtub Gin",
+      "neighborhood": "Chelsea",
+      "image": "https://static.urbandaddy.com/uploads/assets/image/articles/standard/15d807b898560eaf39f51be5007f6a147a30106d.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/bathtub-gin-amp-the-18th-room-staff-relief-fund"
+    },
+    {
+      "name": "Bernie's",
+      "neighborhood": "Greenpoint",
+      "image": "https://d37219swed47g7.cloudfront.net/media/images/reviews/bernies/banners/1542388362.12.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/bernie039s-amp-frankel039s-family-fund"
+    },
+    {
+      "name": "Beyond Sushi",
+      "neighborhood": "East Village",
+      "image": "https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/Sushiuse.jpg?itok=Q2zP442e",
+      "giftcardUrl": "https://beyondsushi.com/gift-cards"
+    },
+    {
       "name": "Bibble and Sip",
       "neighborhood": "Midtown, Chinatown",
       "image": "https://raster-static.postmates.com/?url=com.postmates.img.prod.s3.amazonaws.com/a0518582-cba5-4c98-9b41-57e39b6a72e4/orig.jpg&quality=90&w=1500&h=900&mode=crop&format=jpg&v=4",
       "giftcardUrl": "https://www.bibbleandsip.com/shop"
+    },
+    {
+      "name": "Black Barn",
+      "neighborhood": "Nomad",
+      "image": "https://i.pinimg.com/originals/16/17/9c/16179c6dc44160616767a3f6c9d812ae.png",
+      "reliefFundUrl": "https://www.gofundme.com/f/help-the-black-barn-staff"
+    },
+    {
+      "name": "Black Door",
+      "neighborhood": "Chelsea",
+      "image": "https://s3-media0.fl.yelpcdn.com/bphoto/fSfKv29wbzc0EX6vm44dTg/o.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/park-barblack-door-needs-your-help"
+    },
+    {
+      "name": "Black Flamingo",
+      "neighborhood": "Williamsburg",
+      "image": "https://d37219swed47g7.cloudfront.net/media/images/reviews/black-flamingo/banners/1580915615.69.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/black-flamingo"
+    },
+    {
+      "name": "Black Forest Brooklyn",
+      "neighborhood": "Fort Greene",
+      "image": "https://myspacenyc.com/wp-content/uploads/2018/04/Black-Forest-Brooklyn.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/black-forest-brooklyn-employee-relief-fund?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet"
     },
     {
       "name": "Blue Ribbon Brasserie",
@@ -159,11 +291,68 @@
       "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
+      "name": "Boba Guys",
+      "neighborhood": "LES",
+      "image": "https://res-4.cloudinary.com/dostuff-media/image/upload//w_1200,q_75,c_limit,f_auto/v1477432148/page-image-7899-4ea7238e-75b1-4815-866c-149b0b2cc1d1.jpg",
+      "giftcardUrl": "https://www.bobaguys.com/shopall/boba-guys-gift-card",
+      "merchLink": "https://www.bobaguys.com/shopall"
+    },
+    {
+      "name": "Bohemian",
+      "neighborhood": "Noho",
+      "image": "https://cdn0.vox-cdn.com/thumbor/HY8rMtEMCJoyLV3ZyKjlBRbPoBc=/0x1080/volume-assets.voxmedia.com/production/bd164b13cfd2854a0f8715ddc714ae46/EAT_TMH_004_Bohemian_OYThumb.jpg",
+      "reliefFundUrl": "https://www.brownpapertickets.com/event/4555836"
+    },
+    {
+      "name": "BondST",
+      "neighborhood": "Noho",
+      "image": "https://bondstrestaurant.com/wp-content/uploads/2015/09/Black_Sea_Bass_Carpaccio_00068-1-e1450664726396.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/bondst-staff-relief-fund"
+    },
+    {
+      "name": "Boqueria",
+      "neighborhood": "Flatiron",
+      "image": "https://media.timeout.com/images/103269673/image.jpg",
+      "giftcardUrl": "https://www.giftrocker.com/secure/Order/?h=65640dcd",
+      "reliefFundUrl": "https://www.gofundme.com/f/boqueria-restaurant"
+    },
+    {
+      "name": "Brandy Library",
+      "neighborhood": "Tribeca",
+      "image": "https://www.thegreenwichhotel.com/wp-content/uploads/2015/05/brandy-lib11.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/covid19-support-for-hourly-workers"
+    },
+    {
+      "name": "Brooklyn Cider House",
+      "neighborhood": "Bushwick",
+      "image": "https://infatuation.imgix.net/media/images/reviews/brooklyn-cider-house/Brooklyn%20Cider%20House-74.jpg?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/brooklyn-cider-house-family-fund"
+    },
+    {
+      "name": "Bubby's",
+      "neighborhood": "Tribeca",
+      "image": "https://images.getbento.com/accounts/8396c06bfa6a22a6dba538edd1d909f8/mediausers/custom_fields_galleries/images/lsjRhOYITySIfRZu4pt0_chickendinner.jpg?w=1200&fit=crop&auto=compress,format&h=600",
+      "reliefFundUrl": "https://www.gofundme.com/f/bubby039s-employee-relief-fund"
+    },
+    {
       "name": "Cafe Altro Paradiso",
       "neighborhood": "Soho",
       "image": "https://cdn.vox-cdn.com/thumbor/RdE8uFL0-6JbMlFyIiOdYKSA9WM=/0x64:1200x739/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/49572531/20160227-Cafe_Altro_Paradiso-1.0.0.jpg",
       "giftcardUrl": "https://www.toasttab.com/cafe-altro-paradiso/giftcards",
       "reliefFundUrl": "https://www.gofundme.com/f/yafzh-matter-house"
+    },
+    {
+      "name": "Cafe Cluny",
+      "neighborhood": "West Village",
+      "image": "https://lh3.googleusercontent.com/proxy/s7hjoIJ_cHCEGaFTHzxcboRDLlNnmKbECuEQMLKCLocmjuYKT_v9qnk4e0kJwoSh48e10e4ALSNFPdp-ESSwNsdMx763dpSqnaUWG-rzoggHYcpt-Cl8YBHnZ_dLcqBPJhuCORYVBCVyVHj2I4j7E_qPeNNTvdrEnLF5TRiurmrMA-vix_Y",
+      "giftcardUrl": "https://www.cafecluny.com/cafe-cluny-online-gift-shop",
+      "merchLink": "https://www.cafecluny.com/cafe-cluny-online-gift-shop"
+    },
+    {
+      "name": "Cafeteria",
+      "neighborhood": "Chelsea",
+      "image": "https://zagat-user.imgix.net/empire-diner-new-york-interior-cred-restaurant-2.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/cafeteria-amp-empire-diner-family-fund?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet"
     },
     {
       "name": "Caffe Marchio",
@@ -179,11 +368,29 @@
       "giftcardUrl": "https://ecommerce.custcon.com//Selection.aspx?c=cf2f5e30-49b8-4112-9f97-7c9eaad6ca2a"
     },
     {
+      "name": "Carmine's",
+      "neighborhood": "Midtown",
+      "image": "https://www.carminesnyc.com/assets/uploads/general/carmines-times-square-diningroom-shot-3.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/carmine039s-time-square-empolyee-relief-fund?utm_source=customer&utm_medium=email&utm_campaign=p_cf+share-flow-1"
+    },
+    {
+      "name": "Casa Publica",
+      "neighborhood": "Williamsburg",
+      "image": "https://infatuation.imgix.net/media/images/reviews/casa-publica/NoahDevereaux_CasaPublica_10_Spread_s2m5ERk.JPG?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/casa-publica-employee-relief-fund?teamInvite=HWn4g2z8fBzJipeAvooDIZ8UeWWcSHrRZjrr69Zgnku8wcxBIEDGVoqEcp2mSNTd"
+    },
+    {
       "name": "Cedric's at the Shed",
       "neighborhood": "Hudson Yards",
       "image": "https://cdn.vox-cdn.com/thumbor/UrQq0weWWi6bRtieZPCfJlbDgLo=/0x0:5090x3393/1200x675/filters:focal(2138x1290:2952x2104)/cdn.vox-cdn.com/uploads/chorus_image/image/63654261/20190419_gh_cedrics_11.0.jpg",
       "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
       "notes": "100% of purchases through 3/24 will go toward employee relief fund"
+    },
+    {
+      "name": "Cemitas El Tigre",
+      "neighborhood": "Sunnyside",
+      "image": "https://images.squarespace-cdn.com/content/v1/563a5dfae4b00beab7c281e1/1446672289102-QT8UGCLJDRVSP6XQTLLB/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/cemitas_tacos_dressed.jpg?format=1500w",
+      "reliefFundUrl": "https://www.gofundme.com/f/cemitas-el-tigre-staff-relief-fund?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet"
     },
     {
       "name": "Cervo's",
@@ -193,6 +400,18 @@
       "reliefFundUrl": "https://www.gofundme.com/f/the-team-at-hart039s-cervo039s-the-fly"
     },
     {
+      "name": "Cha An",
+      "neighborhood": "East Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/59959efac534a51a8381e312/1502992876459-KGWJVBQM8LHUBAOS7YXT/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/i-45Hcx2N.jpg?format=2500w",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
+      "name": "Charlie Bird",
+      "neighborhood": "Soho",
+      "image": "https://infatuation.imgix.net/media/images/reviews/charlie-bird/Charlie%20Bird%20Wine.jpg?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/charlie-bird-staff-relief-fund?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet"
+    },
+    {
       "name": "Chez Ma Tante",
       "neighborhood": "Greenpoint",
       "image": "https://infatuation.imgix.net/media/images/reviews/chez-ma-tante/NoahDevereaux_ChezMaTante_035_Spread.JPG?auto=format&h=890&w=1336",
@@ -200,10 +419,40 @@
       "reliefFundUrl": "https://www.gofundme.com/f/chez-ma-tante-employee-fund"
     },
     {
+      "name": "Chez Moi",
+      "neighborhood": "Brooklyn Heights",
+      "image": "https://4dqal1ivlyo3dh2tf3hw8dwx-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/Screen-Shot-2016-01-20-at-2.35.05-PM-e1454616148722.png",
+      "reliefFundUrl": "https://www.gofundme.com/f/chez-moi-restaurant-staff-relief-funds?utm_medium=copy_link&utm_source=customer&utm_campaign=p_na+share-sheet&rcid=9dbebb0d4ceb4f05a074cb5300fe5497"
+    },
+    {
+      "name": "Chinese Tuxedo",
+      "neighborhood": "Chinatown",
+      "image": "https://infatuation.imgix.net/media/images/reviews/chinese-tuxedo/NoahDevereaux_ChineseTuxedo_18_Dumplings.JPG?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/gofundmecomftuxedorelieffund"
+    },
+    {
       "name": "Ciao, Gloria",
       "neighborhood": "Prospect Heights",
       "image": "https://static1.squarespace.com/static/55aacab5e4b0e8a77a1a3a3a/56530218e4b06cc32bbbb785/5e41f7d0c872b769dc896a9b/1583512926271/Photo+Feb+04%2C+10+53+13+AM+copy.jpg?format=2500w",
       "giftcardUrl": "https://www.ciaogloria.com/#gift-cards"
+    },
+    {
+      "name": "Claro",
+      "neighborhood": "Gowanus",
+      "image": "https://cdn.vox-cdn.com/thumbor/fk4WK82EzOhbFOOufJlpLCYr3h8=/0x0:4608x3456/1200x675/filters:focal(1936x1360:2672x2096)/cdn.vox-cdn.com/uploads/chorus_image/image/58266397/Claro_2001.0.jpeg",
+      "giftcardUrl": "https://www.clarobk.com/store/gift-cards/"
+    },
+    {
+      "name": "Clover Club",
+      "neighborhood": "Cobble Hill",
+      "image": "https://myspacenyc.com/wp-content/uploads/2018/04/Clover-Club.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/clover-club-amp-leyenda-staff-relief-fund"
+    },
+    {
+      "name": "Clover Hill",
+      "neighborhood": "Brooklyn Heights",
+      "image": "https://media.timeout.com/images/105588241/image.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/clover-hill-staff-relief-fund?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet"
     },
     {
       "name": "Colonia Verde",
@@ -213,10 +462,22 @@
       "reliefFundUrl": "https://www.gofundme.com/f/colonia-verde-amp-cosmico-workers-relief-fund"
     },
     {
+      "name": "Colonie",
+      "neighborhood": "Brooklyn Heights",
+      "image": "https://pbs.twimg.com/media/ELmZP0wXYAE7jzm.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/colonie-amp-gran-electrica"
+    },
+    {
       "name": "Contra",
       "neighborhood": "LES",
       "image": "https://www.theworlds50best.com/discovery/filestore/jpg/Contra-NewYork-USA-01.jpg",
       "reliefFundUrl": "https://www.gofundme.com/f/contrawildairpeoples-workers-fund"
+    },
+    {
+      "name": "Cosme",
+      "neighborhood": "Flatiron",
+      "image": "https://images.getbento.com/accounts/8e1e3ab8acfc193c8771c3fae5b330e1/mediausers/custom_fields_galleries/images/mlQ6FROQq6oMG5C936BO_4W9A1629.jpg?fit=max&w=1800&auto=format,compress",
+      "reliefFundUrl": "https://www.gofundme.com/f/cosme-atla-staff-support"
     },
     {
       "name": "Cosmico",
@@ -250,6 +511,12 @@
       "notes": "They're adding an additional 20 percent on top of any dollar amount you purchase from $5 to $500."
     },
     {
+      "name": "Curry-Ya",
+      "neighborhood": "East Village",
+      "image": "https://s3.amazonaws.com/trycaviar.com/offers/6227/284271-201706131822.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
       "name": "Daily Provisions",
       "neighborhood": "Flatiron",
       "image": "https://infatuation.imgix.net/media/images/reviews/daily-provisions/banners/1508192874.99.jpg?auto=format&h=840&w=1336",
@@ -279,6 +546,18 @@
       "merchLink": "https://www.deathandcompanymarket.com/"
     },
     {
+      "name": "Decibel",
+      "neighborhood": "East Village",
+      "image": "https://assets.punchdrink.com/wp-content/uploads/2019/04/Article3-Decibel-Japanese-Sake-Bar-East-Village-NYC.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
+      "name": "Del Posto",
+      "neighborhood": "Chelsea",
+      "image": "https://infatuation.imgix.net/media/images/reviews/del-posto/DSC08583.jpg?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/del-posto-family-fund"
+    },
+    {
       "name": "Di An Di",
       "neighborhood": "Greenpoint",
       "image": "https://cdn.vox-cdn.com/thumbor/KUQmJNiUkoRgDM07qdYq-caGkms=/0x0:4500x3000/1200x675/filters:focal(1890x1140:2610x1860)/cdn.vox-cdn.com/uploads/chorus_image/image/59754051/20180515_GH_DIANDI_1012.0.jpg",
@@ -294,6 +573,20 @@
       "merchLink": "https://diamondreefnyc.com/"
     },
     {
+      "name": "Dimes",
+      "neighborhood": "LES",
+      "image": "https://images.squarespace-cdn.com/content/v1/5212e127e4b06d5f9d358914/1488313832185-XHMT18PRCWA2QJVKY23W/ke17ZwdGBToddI8pDm48kB5mxuovge8mzT0o_bpe3OxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIVUR5ChB647yCom7Rgc1F3iZW8A2vW1jVtvUA7T7sg14KMshLAGzx4R3EDFOm1kBS/image-asset.jpeg",
+      "giftcardUrl": "https://dimesnyc.com/webshop/dimes-gift-card",
+      "merchLink": "https://dimesnyc.com/webshop/dimes-gift-card"
+    },
+    {
+      "name": "Dirt Candy",
+      "neighborhood": "LES",
+      "image": "https://infatuation.imgix.net/media/images/reviews/dirt-candy/NoahDevereaux_DirtCandy_056_Spread.JPG?auto=format&h=890&w=1336",
+      "giftcardUrl": "https://shop.dirtcandynyc.com/products/dirt-candy-gift-certificate",
+      "merchLink": "https://shop.dirtcandynyc.com/"
+    },
+    {
       "name": "Don Angie",
       "neighborhood": "West Village",
       "image": "https://media-cdn.tripadvisor.com/media/photo-s/14/43/f8/ff/lasagna-for-two.jpg",
@@ -301,11 +594,37 @@
       "reliefFundUrl": "https://www.gofundme.com/f/don-angie-team-relief-fund"
     },
     {
+      "name": "Down the Hatch",
+      "neighborhood": "West Village",
+      "image": "https://howdidyourpartygo.files.wordpress.com/2011/07/dth-1.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/support-the-staff-nyc",
+      "notes": "EVERY DONATION $40 AND ABOVE WILL BE INVITED TO A PRIVATE 3 HOUR OPEN BAR PARTY AT OUR BARS WHEN WE REOPEN!"
+    },
+    {
       "name": "Egg",
       "neighborhood": "Williamsburg",
       "image": "https://cdn.vox-cdn.com/thumbor/yBwKRtwRENGEK16BVP_t4E9OMnk=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/3670596/egg2.0.jpg",
       "giftcardUrl": "https://www.eggrestaurant.com/gift-certificates",
       "reliefFundUrl": "https://www.gofundme.com/f/support-egg-staff"
+    },
+    {
+      "name": "Egg Shop",
+      "neighborhood": "Nolita",
+      "image": "https://infatuation.imgix.net/media/images/reviews/egg-shop/egg-shop-BEC-2-630x420.jpg?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/1xuzkbnw6o?utm_source=twilio&utm_medium=sms&utm_campaign=contacts-v2-invite-to-donate"
+    },
+    {
+      "name": "El Quinto Pino",
+      "neighborhood": "Chelsea",
+      "image": "https://d37219swed47g7.cloudfront.net/media/reviews/el-quinto-pino/banners/Bess-Adler_El-Quinto-Pino_0.jpg",
+      "giftcardUrl": "http://www.elquintopinonyc.com/gifts/gift-certificate",
+      "reliefFundUrl": "https://www.gofundme.com/f/txiki"
+    },
+    {
+      "name": "Empire Diner",
+      "neighborhood": "Chelsea",
+      "image": "https://infatuation.imgix.net/media/images/reviews/empire-diner/NoahDevreaux_EmpireDiner_043_Spread.JPG?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/cafeteria-amp-empire-diner-family-fund?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet"
     },
     {
       "name": "Ernesto's",
@@ -316,7 +635,7 @@
     {
       "name": "Ess-a-Bagel",
       "neighborhood": "Midtown East",
-      "image": "https://media.timeout.com/images/105255086/750/422/image.jpg",
+      "image": "https://cdn.gearpatrol.com/wp-content/uploads/2015/06/ess-a-bagel-gear-patrol-slide-2.jpg",
       "giftcardUrl": "https://www.toasttab.com/ess-a-bagel-3rd-ave/giftcards"
     },
     {
@@ -334,6 +653,12 @@
       "reliefFundUrl": "https://www.gofundme.com/f/frankies-spuntino-group-employee-fund"
     },
     {
+      "name": "Faro",
+      "neighborhood": "Bushwick",
+      "image": "https://cititour.com/NYC_Restaurants/photos/15051_Faro%2C%20Italian%2C%20Restaurant%2C%20Bushwick%2C%20Brooklyn%2C%20NYC%204t.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/3rduq-faro-staff-disaster-relief-fund?utm_source=customer&utm_medium=email&utm_campaign=p_cp+share-sheet"
+    },
+    {
       "name": "Fausto",
       "neighborhood": "Park Slope",
       "image": "https://images.squarespace-cdn.com/content/v1/599ad472197aeae631750b7d/1559701945156-PFQVNMM0Y59B63RQ0FUH/ke17ZwdGBToddI8pDm48kFyD7pzB8zoMIVY5aiUuFlp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0jG2lbcDYBOeMi4OFSYem8DMb5PTLoEDdB05UqhYu-xbnSznFxIRsaAU-3g5IaylIg/Fausto_LizClayman_0100.jpg",
@@ -344,6 +669,12 @@
       "neighborhood": "East Village",
       "image": "https://infatuation.imgix.net/media/images/reviews/fish-cheeks/banners/1581602787.2.jpg?auto=format&h=840&w=1336",
       "giftcardUrl": "https://www.fishcheeksnyc.com/gift-card"
+    },
+    {
+      "name": "Flex Mussels",
+      "neighborhood": "UES",
+      "image": "https://raster-static.postmates.com/?url=com.postmates.img.prod.s3.amazonaws.com/3b15a088-a114-4e08-b2f7-3682c0970ab7/orig.jpg&quality=90&w=1500&h=900&mode=crop&format=jpg&v=4",
+      "reliefFundUrl": "https://www.gofundme.com/f/flex-mussels-employee-support-fund"
     },
     {
       "name": "Flora Bar",
@@ -374,6 +705,12 @@
       "giftcardUrl": "https://squareup.com/gift/QQVB9FDKP6JFZ/order"
     },
     {
+      "name": "Frankel's Delicatessen",
+      "neighborhood": "Greenpoint",
+      "image": "https://infatuation.imgix.net/media/images/reviews/frankels-delicatessen/banners/1464380795.02.jpg?auto=format&h=840&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/bernie039s-amp-frankel039s-family-fund"
+    },
+    {
       "name": "Frankies 457 Sputino",
       "neighborhood": "Carroll Gardens",
       "image": "https://images.squarespace-cdn.com/content/v1/5c774ca5a09a7e235cadccb9/1559676573617-VIFBWUTCL7WCI27H6DVF/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Frankies_Alison_Reception_3.jpg?format=1500w",
@@ -395,6 +732,25 @@
       "reliefFundUrl": "https://www.gofundme.com/f/frenchette-family-fund"
     },
     {
+      "name": "Fuku",
+      "neighborhood": "Hudson Yards",
+      "image": "https://www.bostonmagazine.com/wp-content/uploads/sites/2/2018/10/Fuku-Boston-B.F.C.jpg",
+      "giftcardUrl": "https://momofuku.myguestaccount.com/guest/egift",
+      "reliefFundUrl": "https://www.gofundme.com/f/momofuku-employees-relief-fund"
+    },
+    {
+      "name": "Gertie",
+      "neighborhood": "Williamsburg",
+      "image": "https://cdn.vox-cdn.com/thumbor/0R7GJDNzZ56CaMY-922LWJF1Qq0=/1400x788/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/14641651/f0y6ukiE.jpg",
+      "giftcardUrl": "https://www.toasttab.com/gertie/giftcards"
+    },
+    {
+      "name": "Golden Diner",
+      "neighborhood": "Two Bridges",
+      "image": "https://media.timeout.com/images/105545313/image.jpg",
+      "giftcardUrl": "https://www.giftfly.com/shop/golden-diner1"
+    },
+    {
       "name": "Good Thanks",
       "neighborhood": "LES",
       "image": "https://www.tipstereats.com/static/team/2018/0809/15338056922331.jpg",
@@ -409,10 +765,29 @@
       "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
+      "name": "Gran Electrica",
+      "neighborhood": "DUMBO",
+      "image": "https://pbs.twimg.com/media/DI4kAwdUQAALY6H.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/colonie-amp-gran-electrica"
+    },
+    {
       "name": "Grand Army Bar",
       "neighborhood": "Boerum Hill",
       "image": "https://i.pinimg.com/originals/31/b3/b6/31b3b63fb6de6ef320d9bdc9dc61e97a.jpg",
       "reliefFundUrl": "https://www.gofundme.com/f/grand-army-staff-support"
+    },
+    {
+      "name": "Güeros",
+      "neighborhood": "Crown Heights",
+      "image": "https://images.squarespace-cdn.com/content/v1/5746757907eaa07caad01a0c/1464637167216-A8TO2USGO1NBBGPBXTBR/ke17ZwdGBToddI8pDm48kF9aEDQaTpZHfWEO2zppK7Z7gQa3H78H3Y0txjaiv_0fbtzP5PeX6kTH7ZxcLi-aMDohiNOp-605NKAb3xRq45GIR5Q_KziaqqJhX91Gf5sQOqpeNLcJ80NK65_fV7S1URM0u9ZPQnYDTAAACFkgXWcUgpI0Bq8TnuNIkJKU2ocAuM5AcYPAfDpeu_8_E2r3jw/homepage_hero_test_2.jpg?format=2500w",
+      "reliefFundUrl": "https://www.gofundme.com/f/wades-dram-shop-and-gueros-staff-relief-fund?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet"
+    },
+    {
+      "name": "Hair of the Dog",
+      "neighborhood": "LES",
+      "image": "https://lh3.googleusercontent.com/proxy/NrmB3EtAJOTzxzB-nJ9mXCdcnztVBOzzE1yq6t1wb0xjuOcWkl42Y49fcSP3iKLdT2otiV4UNrgW-WEe1DMfRzgiw8bT1TXNZQ",
+      "reliefFundUrl": "https://www.gofundme.com/f/support-the-staff-nyc",
+      "notes": "EVERY DONATION $40 AND ABOVE WILL BE INVITED TO A PRIVATE 3 HOUR OPEN BAR PARTY AT OUR BARS WHEN WE REOPEN!"
     },
     {
       "name": "Hart's",
@@ -421,10 +796,39 @@
       "reliefFundUrl": "https://www.gofundme.com/f/the-team-at-hart039s-cervo039s-the-fly"
     },
     {
+      "name": "Hasaki",
+      "neighborhood": "East Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/59bc0eee017db22a2ccbff0e/1533912988279-ZBGKM8ANHWGOYWIXKXH4/ke17ZwdGBToddI8pDm48kFmfxoboNKufWj-55Bgmc-J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iXS6XmVv7bUJ418E8Yoc1hjuviiiZmrL38w1ymUdqq4JaGeFUxjM-HeS7Oc-SSFcg/DSC_9208.jpg?format=2500w",
+      "giftcardUrl": "https://squareup.com/gift/4EMT81QW1NXNP/order",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
+      "name": "Hi-Collar",
+      "neighborhood": "East Village",
+      "image": "https://b.zmtcdn.com/data/pictures/4/17763894/95d0ae749970152618f2f7620aa4513a.jpg",
+      "giftcardUrl": "https://squareup.com/gift/K3ARPVWHZTJ8E/order",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants",
+      "merchLink": "https://hicollar.square.site/"
+    },
+    {
       "name": "High Street on Hudson",
       "neighborhood": "West Village",
       "image": "https://highstreetonhudson.com/wp-content/uploads/2017/11/HighStreetOnHudson-Toast2-1280w.jpg",
       "giftcardUrl": "https://highstreetonhudson.com/product/gift-card/"
+    },
+    {
+      "name": "Hole in the Wall",
+      "neighborhood": "FiDi",
+      "image": "https://cdn.vox-cdn.com/thumbor/gLQqUi6wRGUr-QRuTalh_hcZYM4=/0x0:1000x692/1200x900/filters:focal(204x207:364x367)/cdn.vox-cdn.com/uploads/chorus_image/image/60999387/hole_int_he_wall.0.jpg",
+      "giftcardUrl": "https://squareup.com/gift/35D4N0PDVZT07/order",
+      "reliefFundUrl": "https://www.gofundme.com/f/hole-in-the-wall-staff-support"
+    },
+    {
+      "name": "Hometown Bar-B-Que",
+      "neighborhood": "Red Hook",
+      "image": "https://infatuation.imgix.net/media/images/reviews/hometown-bar-b-que/Hometown%20BBQ%20-%20Full%20Tray%20Lighter%20View.jpg?auto=format&h=890&w=1336",
+      "giftcardUrl": "https://hometownbbq.com/giftcards",
+      "reliefFundUrl": "https://www.gofundme.com/f/hometown-bbq-and-red-hook-tavern-support-page?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet"
     },
     {
       "name": "Houseman",
@@ -442,10 +846,36 @@
       "merchLink": "https://www.hunkydorybk.com/hunky-goods"
     },
     {
+      "name": "Hutong NYC",
+      "neighborhood": "Midtown",
+      "image": "https://thenypost.files.wordpress.com/2019/07/hutong-spread-1a.jpg?quality=80&strip=all&w=618&h=410&crop=1",
+      "reliefFundUrl": "https://www.gofundme.com/f/HUTONG-NYC-Relief-Fund"
+    },
+    {
       "name": "Ice & Vice",
       "neighborhood": "LES",
       "image": "https://www.tipstereats.com/static/team/2018/0912/15367441958036.jpg",
       "giftcardUrl": "https://www.iceandvice.com/shop/gift-card-2"
+    },
+    {
+      "name": "Il Buco",
+      "neighborhood": "Noho",
+      "image": "https://infatuation.imgix.net/media/images/reviews/il-buco/Torchio%20Il%20Buco.jpg?auto=format&h=890&w=1336",
+      "giftcardUrl": "https://ilbuco.com/pages/gift-card",
+      "reliefFundUrl": "https://www.gofundme.com/f/il-buco-family-fund"
+    },
+    {
+      "name": "Il Buco Alimentari",
+      "neighborhood": "Noho",
+      "image": "https://149359921.v2.pressablecdn.com/wp-content/uploads/2017/12/noedewitt.jpg",
+      "giftcardUrl": "https://ilbuco.com/pages/gift-card",
+      "reliefFundUrl": "https://www.gofundme.com/f/il-buco-family-fund"
+    },
+    {
+      "name": "Insa",
+      "neighborhood": "Gowanus",
+      "image": "https://images.ctfassets.net/t5afiavuz3to/8yLzSViq6AS26MkE6iEWO/e5e7b77aee2aa9b5b0603dc5f1b2bcaf/1_Insa?w=800",
+      "reliefFundUrl": "https://www.gofundme.com/f/insa-amp-the-good-fork-staff-fund"
     },
     {
       "name": "Intersect by Lexus",
@@ -455,10 +885,49 @@
       "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
+      "name": "Jack the Horse Tavern",
+      "neighborhood": "Brooklyn Heights",
+      "image": "https://i.pinimg.com/originals/f5/fe/a5/f5fea5e2bab9f9f12e9b27730c504a32.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/friends-of-jack-the-horse-tavern?utm_source=customer&utm_medium=email&utm_campaign=p_cp+share-sheet."
+    },
+    {
+      "name": "Jake's Dilemma",
+      "neighborhood": "UWS",
+      "image": "https://howdidyourpartygo.files.wordpress.com/2009/12/jakes-2.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/support-the-staff-nyc",
+      "notes": "EVERY DONATION $40 AND ABOVE WILL BE INVITED TO A PRIVATE 3 HOUR OPEN BAR PARTY AT OUR BARS WHEN WE REOPEN!"
+    },
+    {
+      "name": "James",
+      "neighborhood": "Prospect Heights",
+      "image": "https://i.pinimg.com/originals/1c/48/7e/1c487e2d834830aee70529da81e8bfbb.jpg",
+      "giftcardUrl": "http://www.jamesrestaurantny.com/shop/gift-certificate",
+      "reliefFundUrl": "https://www.gofundme.com/f/james-staff-emergency-relief-fund?utm_medium=email&utm_source=product&utm_campaign=p_email%2B4803-donation-alert-v5",
+      "merchLink": "http://www.jamesrestaurantny.com/shop"
+    },
+    {
+      "name": "Jean Georges",
+      "neighborhood": "UWS",
+      "image": "https://secure.s.forbestravelguide.com/img/properties/PropertyImage_JeanGeorges_NewYork_Restaurant_Food_2_CreditTrumpInterationalHotelAndTower.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/jeangeorges-restaurant-employee-relief-fund"
+    },
+    {
+      "name": "JoJo",
+      "neighborhood": "UES",
+      "image": "https://infatuation.imgix.net/media/images/reviews/jojo-nyc/banners/1570133903.51.jpg?auto=format&h=840&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/jeangeorges-restaurant-employee-relief-fund"
+    },
+    {
       "name": "June Wine Bar",
       "neighborhood": "Cobble Hill",
       "image": "https://static1.squarespace.com/static/5608602ae4b02ca27d358107/56087106e4b02efb267d9a5e/564391c3e4b07810c0b0db7f/1447269601324/?format=1500w",
       "giftcardUrl": "https://www.junebk.com/gift-certificate"
+    },
+    {
+      "name": "Jupiter Disco",
+      "neighborhood": "Bushwick",
+      "image": "https://cms.prod.nypr.digital/images/93474/fill-661x496/",
+      "reliefFundUrl": "https://www.gofundme.com/f/jupiter-disco-staff-relief-fund?utm_source=customer&utm_medium=copy_link&utm_campaign=m_pd+share-sheet"
     },
     {
       "name": "Karasu",
@@ -502,11 +971,24 @@
       "merchLink": "https://gumroad.com/kopitiamnyc"
     },
     {
+      "name": "L'Accolade",
+      "neighborhood": "West Village",
+      "image": "https://media.timeout.com/images/105481603/630/472/image.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/l039accolade-restaurant-staff-disaster-relief-funddd"
+    },
+    {
       "name": "L'Artusi",
       "neighborhood": "West Village",
       "image": "https://149359921.v2.pressablecdn.com/wp-content/uploads/2017/12/Mezzanine2.jpg",
       "giftcardUrl": "https://www.lartusi.com/store/gift-cards/",
       "reliefFundUrl": "https://www.gofundme.com/f/epicurean-family-support-fund"
+    },
+    {
+      "name": "La Compagnie Des Vins Surnaturels",
+      "neighborhood": "Soho",
+      "image": "https://static1.squarespace.com/static/53397fc1e4b0fac946ae9b22/t/550c0165e4b0e5416bbbabd4/1426850149912/DSC00966+copy.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/compagne-sommelier-tip-jar",
+      "merchLink": "http://www.compagnienyc.com/online-orders-swag"
     },
     {
       "name": "La Gioconda",
@@ -518,7 +1000,8 @@
       "name": "La Vara",
       "neighborhood": "Cobble Hill",
       "image": "https://images.squarespace-cdn.com/content/v1/5811527103596e29c7dbf760/1477531866881-E6I6X87YX5UKP4CFIKNH/ke17ZwdGBToddI8pDm48kJL1rJ0aaPlCjr2VW3rWPGJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0nQwvinDXPV4EYh2MRzm-RSfcWPHNtY0MWbtfq5ZSXbUGAReirU9sD39ZD-rYsKuMg/LV_7.jpg?format=2500w",
-      "giftcardUrl": "https://www.lavarany.com/gifts/gift-certificate"
+      "giftcardUrl": "https://www.lavarany.com/gifts/gift-certificate",
+      "reliefFundUrl": "https://www.gofundme.com/f/txiki"
     },
     {
       "name": "Lafayette",
@@ -535,10 +1018,24 @@
       "reliefFundUrl": "https://www.gofundme.com/f/lalou-employee-fund"
     },
     {
+      "name": "Legacy Records",
+      "neighborhood": "Hell's Kitchen",
+      "image": "https://infatuation.imgix.net/media/images/reviews/legacy-records/banners/1529357706.61.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://ecommerce.custcon.com/Purchase/Select?c=02d7a539-6ced-46b6-9208-8977bf457f26",
+      "reliefFundUrl": "https://www.gofundme.com/f/legacy-records-staff-relief-fund?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet"
+    },
+    {
       "name": "Leo",
       "neighborhood": "Williamsburg",
       "image": "https://images.squarespace-cdn.com/content/v1/5d82d7c884358e0d7028cce1/1578940333054-LNRJTKEPCPYZWWJ0X0DW/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Leo_12.5.19-24.jpg?format=1500w",
       "giftcardUrl": "https://squareup.com/gift/MHS5FFX7HYS1C/order"
+    },
+    {
+      "name": "Leyenda",
+      "neighborhood": "Carroll Gardens",
+      "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1487629968%2Fleyenda-brooklyn-nyc0217.jpg%3Fitok%3DSmttMFEX",
+      "giftcardUrl": "https://leyendabk.com/gift-cards/",
+      "reliefFundUrl": "https://www.gofundme.com/f/clover-club-amp-leyenda-staff-relief-fund"
     },
     {
       "name": "Lilia",
@@ -546,6 +1043,15 @@
       "image": "https://media.cntraveler.com/photos/58599e53857eae6855ec5a5d/master/pass/best-restaurants-NYC-lilia-2016.jpg",
       "giftcardUrl": "https://www.lilianewyork.com/store/gift-cards/",
       "reliefFundUrl": "https://www.gofundme.com/f/grovehouse-family-fund"
+    },
+    {
+      "name": "Little Owl",
+      "neighborhood": "West Village",
+      "image": "https://www.thelittleowlnyc.com/img/burger-spring-2019-web.jpg",
+      "giftcardUrl": "https://www.thelittleowlnyc.com/#gift-cards",
+      "reliefFundUrl": "https://www.gofundme.com/f/little-owl-market-table-amp-the-clam",
+      "notes": "Dining bonds available at gift card link",
+      "merchLink": "https://shop.thelittleowlnyc.com/"
     },
     {
       "name": "Little Tong Noodle Shop",
@@ -560,6 +1066,13 @@
       "image": "https://www.thegreenwichhotel.com/wp-content/uploads/2013/04/NYC-Hotel-Restaurant-Locanda-Verde.jpg",
       "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=008ec6be-1aed-42a3-aa27-86a7f5989694",
       "reliefFundUrl": "https://www.gofundme.com/f/wpnza-noho-hospitality-family-fund"
+    },
+    {
+      "name": "Loring Place",
+      "neighborhood": "Greenwich Village",
+      "image": "https://infatuation.imgix.net/media/images/reviews/loring-place/NoahDevereaux_LoringPlace_60_Spread.JPG?auto=format&h=890&w=1336",
+      "giftcardUrl": "https://www.loringplacenyc.com/store/gift-cards",
+      "reliefFundUrl": "https://www.gofundme.com/f/loring-place-employees"
     },
     {
       "name": "Maialino",
@@ -591,11 +1104,39 @@
       "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
+      "name": "Marc Forgione",
+      "neighborhood": "Tribeca",
+      "image": "https://b.zmtcdn.com/data/pictures/3/16782043/0acf1ad9851d495a38e1c496b171443c.jpg",
+      "giftcardUrl": "http://www.marcforgione.com/store/gift-card/",
+      "reliefFundUrl": "https://www.gofundme.com/f/restaurant-marc-forgione-employees-fund"
+    },
+    {
+      "name": "Market Table",
+      "neighborhood": "West Village",
+      "image": "https://www.markettablenyc.com/img/feast-1.jpg",
+      "giftcardUrl": "https://www.markettablenyc.com/",
+      "reliefFundUrl": "https://www.gofundme.com/f/little-owl-market-table-amp-the-clam",
+      "notes": "Dining bonds (25%) available at gift card link"
+    },
+    {
       "name": "Marta",
       "neighborhood": "Nomad",
       "image": "https://infatuation.imgix.net/media/reviews/marta/banners/Marta20_Alice-Gao_0.jpg?auto=format&h=840&w=1336",
       "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=shop&utm_medium=web&&utm_content=ushg",
       "notes": "100% of purchases through 3/24 will go toward employee relief fund"
+    },
+    {
+      "name": "Meme’s Diner",
+      "neighborhood": "Prospect Heights",
+      "image": "https://infatuation.imgix.net/media/images/reviews/memes-diner/TeddyWolff.MemesDiner.Interiors.8.jpg?auto=format&h=890&w=1336",
+      "giftcardUrl": "https://www.memesdiner.com/gift-certificates",
+      "reliefFundUrl": "https://www.memesdiner.com/covid-19-staff-fund-donation"
+    },
+    {
+      "name": "Mercer Kitchen",
+      "neighborhood": "Soho",
+      "image": "https://www.jean-georges.com/content/slides/jgm-mercer-kitchen-1600x1000-1.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/jeangeorges-restaurant-employee-relief-fund"
     },
     {
       "name": "Mimi",
@@ -607,7 +1148,8 @@
       "name": "Minetta Tavern",
       "neighborhood": "Greenwich Village",
       "image": "https://infatuation.imgix.net/media/reviews/minetta-tavern/banners/minetta-tavern-interior-1_0.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=f7c40669-ff96-4aa8-971e-2139504200ee"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=f7c40669-ff96-4aa8-971e-2139504200ee",
+      "reliefFundUrl": "https://www.gofundme.com/f/1xu0jyleyo?sharetype=teams&member=4030370&utm_medium=copy_link&utm_source=customer&utm_campaign=p_na+share-sheet&rcid=7e624ba32e7e425da772f55cc9889055"
     },
     {
       "name": "Misi",
@@ -627,7 +1169,8 @@
       "name": "Mission Chinese Food",
       "neighborhood": "LES",
       "image": "https://media.timeout.com/images/100453571/630/472/image.jpg",
-      "reliefFundUrl": "https://venmo.com/mcfstaff"
+      "reliefFundUrl": "https://venmo.com/mcfstaff",
+      "merchLink": "https://www.missionchinesefood.com/shop"
     },
     {
       "name": "Mister Dips",
@@ -643,10 +1186,46 @@
       "reliefFundUrl": "https://www.gofundme.com/f/thursday-kitchen-staff-support"
     },
     {
+      "name": "Momofuku Kawi",
+      "neighborhood": "Hell's Kitchen",
+      "image": "https://momofuku-assets.s3.amazonaws.com/uploads/sites/34/2019/11/AA-Spread-2-resize-%E2%80%93-Andrew-Bezek-1440x590.jpg",
+      "giftcardUrl": "https://momofuku.myguestaccount.com/guest/egift",
+      "reliefFundUrl": "https://www.gofundme.com/f/momofuku-employees-relief-fund"
+    },
+    {
+      "name": "Momofuku Ko",
+      "neighborhood": "East Village",
+      "image": "https://cdn.vox-cdn.com/thumbor/slhqpuWqn5eROff0QkngJDjK8bk=/0x105:2000x1230/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/47413474/16004989426_318107ed54_o.0.0.jpg",
+      "giftcardUrl": "https://momofuku.myguestaccount.com/guest/egift",
+      "reliefFundUrl": "https://www.gofundme.com/f/momofuku-employees-relief-fund"
+    },
+    {
+      "name": "Momofuku Nishi",
+      "neighborhood": "Chelsea",
+      "image": "https://www.villagevoice.com/wp-content/uploads/2017/12/121217_VV_MomoNishi-_Group-088.jpg",
+      "giftcardUrl": "https://momofuku.myguestaccount.com/guest/egift",
+      "reliefFundUrl": "https://www.gofundme.com/f/momofuku-employees-relief-fund"
+    },
+    {
+      "name": "Momofuku Noodle Bar",
+      "neighborhood": "East Village, Columbus Circle",
+      "image": "https://momofuku-assets.s3.amazonaws.com/uploads/sites/15/2018/11/NB-1-506x337.jpg",
+      "giftcardUrl": "https://momofuku.myguestaccount.com/guest/egift",
+      "reliefFundUrl": "https://www.gofundme.com/f/momofuku-employees-relief-fund"
+    },
+    {
+      "name": "Momofuku Ssam Bar",
+      "neighborhood": "East Village",
+      "image": "https://infatuation.imgix.net/media/images/reviews/momofuku-ssam-bar/NoahDevereaux_MomofukuSsam_050_Spread.JPG?auto=format&h=890&w=1336",
+      "giftcardUrl": "https://momofuku.myguestaccount.com/guest/egift",
+      "reliefFundUrl": "https://www.gofundme.com/f/momofuku-employees-relief-fund"
+    },
+    {
       "name": "Morandi",
       "neighborhood": "West Village",
       "image": "https://infatuation.imgix.net/media/reviews/morandi/banners/morandi-interior-4_0.jpg?auto=format&h=840&w=1336",
-      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=f7c40669-ff96-4aa8-971e-2139504200ee"
+      "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=f7c40669-ff96-4aa8-971e-2139504200ee",
+      "reliefFundUrl": "https://www.gofundme.com/f/morandi-employee-covid19-relief-fund"
     },
     {
       "name": "Motel Morris",
@@ -656,10 +1235,29 @@
       "reliefFundUrl": "https://www.gofundme.com/f/motel-morris-staff-relief-fund"
     },
     {
+      "name": "Ms Yoo",
+      "neighborhood": "LES",
+      "image": "https://resizer.otstatic.com/v2/photos/wide-huge/1/25052041.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/ms-yoo-team-relief-fund"
+    },
+    {
       "name": "Niche Niche",
       "neighborhood": "Soho",
       "image": "https://content.fortune.com/wp-content/uploads/2019/05/niche-niche-01.jpg",
       "reliefFundUrl": "https://www.gofundme.com/f/help-the-best-people-on-earth-in-a-time-of-need"
+    },
+    {
+      "name": "Noreetuh",
+      "neighborhood": "East Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/51978642e4b041b39c92577d/1471058591208-VZ1JW1A184YVTRV3YTRC/ke17ZwdGBToddI8pDm48kApm4bZ6Mn3TiUWou3kA3bp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWZaykogqWzieOupsqeSuBYug-y5Ut2InYZT1FrJD3yL-rj95DA1mjJIBxXFGHkuyQ/noreetuh-5142.jpg?format=2500w",
+      "giftcardUrl": "https://www.noreetuh.com/giftcards/gift-card"
+    },
+    {
+      "name": "Nougatine",
+      "neighborhood": "UWS",
+      "image": "https://www.nycgo.com/images/venues/1828/_nougatine-at-jean-georges-francesco-tonelli-06__x_large.jpg",
+      "giftcardUrl": "https://friendseat.com/wp-content/uploads/2019/10/jean-georges-lincoln-square-coupons-2085.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/jeangeorges-restaurant-employee-relief-fund"
     },
     {
       "name": "Oiji",
@@ -676,6 +1274,12 @@
       "merchLink": "www.gofundme.com/f/olmsted-amp-maison-yaki-staff-disaster-relief-fund"
     },
     {
+      "name": "Otafuku x Medetai",
+      "neighborhood": "East Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/59bff7262aeba5a4ffce264b/1506359481276-BKEXUSTQM8CAOB2N73GN/ke17ZwdGBToddI8pDm48kPg3kkMSlDqGprD-21e6kCJZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIpppx-FWaxK7i6rVdWZNGy6SGN0ZVlswpj22aI6j1zesKMshLAGzx4R3EDFOm1kBS/Otafuku_OkonomiyakiShrimpPork_1-edit.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
       "name": "Ovenly",
       "neighborhood": "Greenpoint",
       "image": "https://miro.medium.com/max/750/1*-YAX1t2SRYAqWMRQT2VURg.jpeg",
@@ -690,11 +1294,61 @@
       "reliefFundUrl": "https://www.gofundme.com/f/oxalis-employee-relief-fund"
     },
     {
+      "name": "Oxomoco",
+      "neighborhood": "Greenpoint",
+      "image": "https://cdn.vox-cdn.com/thumbor/-YHzATIHx_rtykKUBrDKdeLRwVs=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/12562605/Oxomoco_147.jpg",
+      "giftcardUrl": "https://oxomoconyc.cardfoundry.com/giftcards.php?action=store"
+    },
+    {
+      "name": "Pasquale Jones",
+      "neighborhood": "Nolita",
+      "image": "https://pbs.twimg.com/media/CxPa-nRWEAAVibe.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/pasquale-jones-staff-relief-fund?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet"
+    },
+    {
+      "name": "Pastis",
+      "neighborhood": "Meatpacking",
+      "image": "https://infatuation.imgix.net/media/images/reviews/pastis/banners/1564670954.3.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://starr-restaurants.com/shop-landing/",
+      "reliefFundUrl": "https://www.gofundme.com/f/pastis-nyc-relief-fund",
+      "merchLink": "https://starr-restaurants.com/shop-landing/"
+    },
+    {
+      "name": "Paulie Gee’s Slice Shop",
+      "neighborhood": "Greenpoint",
+      "image": "https://cdn.vox-cdn.com/thumbor/UAe_2i73GQHPcnJbbB-Sp_BY0GM=/0x0:5760x3840/1200x675/filters:focal(2420x1460:3340x2380)/cdn.vox-cdn.com/uploads/chorus_image/image/61275717/Paulie_Gee_s_Slice_Shop_25.0.jpg",
+      "giftcardUrl": "https://squareup.com/gift/46R0Y9B9RT92J/order"
+    },
+    {
+      "name": "Peachy's",
+      "neighborhood": "Chinatown",
+      "image": "https://media.timeout.com/images/105228085/630/472/image.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/gofundmecomftuxedorelieffund"
+    },
+    {
+      "name": "Peasant",
+      "neighborhood": "Nolita",
+      "image": "https://images.getbento.com/accounts/f138bbdef6acf27b7aeb26b268d20984/media/images/879903_Pastas_web.jpg?fit=max&w=1800&auto=format,compress",
+      "reliefFundUrl": "https://www.gofundme.com/f/restaurant-marc-forgione-employees-fund"
+    },
+    {
+      "name": "Pegu Club",
+      "neighborhood": "Soho",
+      "image": "https://assets3.thrillist.com/v1/image/1759618/size/tmg-venue_carousel_mobile.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/pegu-club-staff-relief-fund"
+    },
+    {
       "name": "Peoples Wine",
       "neighborhood": "LES",
       "image": "https://cdn.vox-cdn.com/thumbor/mXygBsXRXlDmykwVIxkLcuKv5_8=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19397598/The_Market_Line_52.jpg",
       "reliefFundUrl": "https://www.gofundme.com/f/contrawildairpeoples-workers-fund",
       "merchLink": "https://www.peoples.wine/shop"
+    },
+    {
+      "name": "Perry St",
+      "neighborhood": "West Village",
+      "image": "https://www.perrystrestaurant.com/content/slides/perry_st_gallery_003.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/jeangeorges-restaurant-employee-relief-fund"
     },
     {
       "name": "Pig & Khao",
@@ -717,11 +1371,36 @@
       "notes": "100% of purchases through 3/24 will go toward employee relief fund"
     },
     {
+      "name": "Porsena",
+      "neighborhood": "East Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/54860d97e4b0e6613e2d4c91/1418106452664-X2WIKIQBBZNUOZ0K165G/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/L1040437.JPG?format=1500w",
+      "reliefFundUrl": "https://www.gofundme.com/f/porsena-staff-fund"
+    },
+    {
+      "name": "Portale",
+      "neighborhood": "Chelsea",
+      "image": "https://infatuation.imgix.net/media/images/reviews/portale/banners/1578325412.94.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://www.portalerestaurant.com/store/gift-cards/",
+      "reliefFundUrl": "https://www.gofundme.com/f/1xlyzckbeo"
+    },
+    {
       "name": "Prune",
       "neighborhood": "East Village",
       "image": "https://d37219swed47g7.cloudfront.net/media/reviews/prune/banners/Prune-NYC_0.jpg",
       "giftcardUrl": "https://www.thegiftcardcafe.com/cart/shop.php",
       "merchLink": "https://prunerestaurant.com/shop/"
+    },
+    {
+      "name": "Quality Bistro",
+      "neighborhood": "Midtown",
+      "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iDHmYWuEBVY0/v0/1000x-1.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/quality-italian-ny-employee-relief-fund"
+    },
+    {
+      "name": "Quality Eats",
+      "neighborhood": "West Village",
+      "image": "https://infatuation.imgix.net/media/images/reviews/quality-eats/Quality%20Eats%20Don%20Ameche%20Steak_jyy2Oqn.jpg?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/quality-italian-ny-employee-relief-fund"
     },
     {
       "name": "Quality Italian",
@@ -731,10 +1410,50 @@
       "reliefFundUrl": "https://www.gofundme.com/f/quality-italian-ny-employee-relief-fund"
     },
     {
+      "name": "Quality Meats",
+      "neighborhood": "Midtown",
+      "image": "https://d37219swed47g7.cloudfront.net/media/reviews/quality-meats/banners/Quality-Meats_0.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/quality-italian-ny-employee-relief-fund"
+    },
+    {
+      "name": "Rahi",
+      "neighborhood": "West Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/59064d78c534a5c0bce523f9/1496633186751-XI5PWFOBHYXBYJC2TDPE/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_4792-Roni.jpg?format=1500w",
+      "giftcardUrl": "https://www.rahinyc.com/support",
+      "reliefFundUrl": "https://www.gofundme.com/f/adda-rahi-amp-the-masalawala-support-fund",
+      "notes": "Dining bonds at 25% discount"
+    },
+    {
+      "name": "Rai Rai Ken",
+      "neighborhood": "East Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/59a979f0d482e91606182155/1504282899752-640NHK9HGPJRSO7BUHID/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_4039.JPG?format=2500w",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
+      "name": "Ray's",
+      "neighborhood": "LES",
+      "image": "https://media.guestofaguest.com/t_article_content/gofg-media/2019/07/1/52620/ray%27s_interior_-_credit_kirsten_francis_(1).jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/staff-disaster-relief-fund"
+    },
+    {
+      "name": "Red Hook Tavern",
+      "neighborhood": "Red Hook",
+      "image": "https://infatuation.imgix.net/media/images/reviews/red-hook-tavern/banners/1569940397.82.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://www.toasttab.com/red%20hook%20tavern/giftcards",
+      "reliefFundUrl": "https://www.gofundme.com/f/hometown-bbq-and-red-hook-tavern-support-page?utm_medium=copy_link&utm_source=customer&utm_campaign=p_lico+share-sheet"
+    },
+    {
       "name": "Rezdora",
       "neighborhood": "Flatiron",
       "image": "https://infatuation.imgix.net/media/images/reviews/rezdora/banners/1565985774.15.jpg?auto=format&h=840&w=1336",
       "giftcardUrl": "https://www.rezdora.nyc/store/gift-cards/"
+    },
+    {
+      "name": "Roberta's",
+      "neighborhood": "Bushwick",
+      "image": "https://i2.wp.com/intheloup.la/wp-content/uploads/2018/09/Robertas-Pizza-Culver-City-Los-Anglees.jpg?fit=3744%2C2808&ssl=1",
+      "reliefFundUrl": "https://www.gofundme.com/f/roberta039s-team",
+      "merchLink": "https://shop.robertaspizza.com/"
     },
     {
       "name": "Rose's",
@@ -757,10 +1476,38 @@
       "reliefFundUrl": "https://www.gofundme.com/f/employee-fund-for-ruffian-amp-kindred?utm_source=customer&utm_medium=copy_link-tip&utm_campaign=p_cp+share-sheet"
     },
     {
+      "name": "Rule of Thirds",
+      "neighborhood": "Greenpoint",
+      "image": "https://cdn.vox-cdn.com/thumbor/ddtQG5q7NU9DWuRYvB1VzfDBU2M=/0x0:2000x1429/1200x0/filters:focal(0x0:2000x1429):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19737391/Rule_of_Thirds__Blade_Steak_Tonkatsu__Please_Credit__Eric_Medsker___1_.jpg",
+      "giftcardUrl": "https://www.thirdsbk.com/store/gift-cards/",
+      "reliefFundUrl": "https://www.gofundme.com/f/in-this-together-help-our-staff"
+    },
+    {
       "name": "Russ & Daughters",
       "neighborhood": "LES",
       "image": "https://images.squarespace-cdn.com/content/v1/57be0600e3df288b8ce9492a/1553032863153-7I666EE0UMUGV6AA9S0Y/ke17ZwdGBToddI8pDm48kFTEgwhRQcX9r3XtU0e50sUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcW7uEhC96WQdj-SwE5EpM0lAopPba9ZX3O0oeNTVSRxdHAmtcci_6bmVLoSDQq_pb/static.jpg?format=2500w",
       "giftcardUrl": "https://www.giftrocker.com/secure/Order/?hash=adee3f11"
+    },
+    {
+      "name": "Saint Julivert Fisherie",
+      "neighborhood": "Cobble Hill",
+      "image": "https://infatuation.imgix.net/media/images/reviews/saint-julivert-fisherie/TeddyWolff.SaintJulivert.CrabSpoonSalad.1.jpg?auto=format&h=890&w=1336",
+      "giftcardUrl": "https://www.saintjulivertbk.com/gifts/gift-certificate",
+      "reliefFundUrl": "https://www.gofundme.com/f/txiki"
+    },
+    {
+      "name": "Sakagura",
+      "neighborhood": "Midtown",
+      "image": "https://www.moretimetotravel.com/wp-content/uploads/2018/12/Sakagura_300dpi-18.jpg",
+      "giftcardUrl": "https://squareup.com/gift/0MZX962R2931E/order",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
+      "name": "Sakagura East Village",
+      "neighborhood": "East Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/59ea1c36b7411c60c530f75a/1555350011855-Y9BFAIS4UAGGOKO60MCQ/ke17ZwdGBToddI8pDm48kCX-V5vw-8h9IBXN10-_8XN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p4Wyba38KfG317vYluk45_zZdtnDCZTLKcP2mivxmYi50xvY5saIGKMgOza9mH4XA/P1170412.jpg?format=1500w",
+      "giftcardUrl": "https://squareup.com/gift/0MZX962R2931E/order",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
     },
     {
       "name": "Sama Street",
@@ -769,10 +1516,49 @@
       "reliefFundUrl": "https://www.gofundme.com/f/sama-street-employee-fund"
     },
     {
+      "name": "Santina",
+      "neighborhood": "Meatpacking",
+      "image": "https://infatuation.imgix.net/media/reviews/santina/banners/Santina_0.jpg?auto=format&h=840&w=1336",
+      "giftcardUrl": "https://ecommerce.custcon.com/Purchase/Select?c=20f0213a-9474-4fc5-b0b4-40fe5e81ac0f"
+    },
+    {
+      "name": "Sen Sakana",
+      "neighborhood": "Midtown",
+      "image": "https://www.villagevoice.com/wp-content/uploads/2017/12/171220_VillageVoice_SenSakana-1.jpg",
+      "giftcardUrl": "https://sensakana.com/gift-card/"
+    },
+    {
+      "name": "Shabu Tatsu",
+      "neighborhood": "East Village",
+      "image": "https://images.squarespace-cdn.com/content/v1/59b6ba2e3e00be04abbf1ad6/1505162865983-HU4NH1RRYPNE7PIPABHJ/ke17ZwdGBToddI8pDm48kCPztTQZpDiZMOuuCfUxiyx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYlQ-m0oNUh_9buvyC-f1CSdhG_dNlqULB2ZTz-ses64A-QPhXXvNcU0N8wN7BGx0g/IMG_2950.JPG?format=2500w",
+      "giftcardUrl": "https://squareup.com/gift/B5RRAHZMTT2DV/order",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
+      "name": "Sisters",
+      "neighborhood": "Clinton Hill",
+      "image": "https://dev-sisters-brooklyn.pantheon.io/wp-content/uploads/2016/02/brunch-440x296.jpg",
+      "giftcardUrl": "https://swipeit.com/product/1223/sisters",
+      "reliefFundUrl": "https://www.gofundme.com/f/sisters-staff-funds"
+    },
+    {
+      "name": "Slowly Shirley",
+      "neighborhood": "West Village",
+      "image": "https://uploads.venuebook.com/cache/15/e5/15e581edb0173c1b003599c3978c2b65.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/staff-disaster-relief-fund"
+    },
+    {
       "name": "Sobaya",
       "neighborhood": "East Village",
       "image": "https://images.squarespace-cdn.com/content/v1/59c0209b90baded1a5b44c95/1505769849898-QU0N7C7WIGNLKS9SF0Y2/ke17ZwdGBToddI8pDm48kAGx3IFADtt9koaOuly55F57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0pTKqSDRwmMK43IUI3HojJX_iGOyvGz0VEAhzFdMwNTUP3iYIRpjRWHZRVGJwIQ0nA/Sobaya_300dpi-20.jpg?format=2500w",
-      "giftcardUrl": "https://squareup.com/gift/VWTC386KPJKX7/order"
+      "giftcardUrl": "https://squareup.com/gift/VWTC386KPJKX7/order",
+      "reliefFundUrl": "https://www.gofundme.com/f/ticjapaneserestaurants"
+    },
+    {
+      "name": "Sofreh",
+      "neighborhood": "Prospect Heights",
+      "image": "https://cdn.vox-cdn.com/thumbor/CsYaahyWNwAYy2vIENmzS2o1wik=/0x0:5760x3840/1200x0/filters:focal(0x0:5760x3840):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/12323545/chicken.jpg",
+      "giftcardUrl": "https://www.sofrehnyc.com/giftcards"
     },
     {
       "name": "Sonnyboy",
@@ -780,6 +1566,19 @@
       "image": "https://media.guestofaguest.com/t_article_content/gofg-media/2019/02/1/51989/51669851_2041986202563939_5562780093943908216_n_(2).jpg",
       "giftcardUrl": "https://www.sonnyboynyc.com/store/gift-cards/",
       "reliefFundUrl": "https://www.gofundme.com/sonnyboy-staff-support"
+    },
+    {
+      "name": "Special Club",
+      "neighborhood": "Soho",
+      "image": "https://www.nycgo.com/images/venues/70964/special-club-soho-manhattan-nyc-gary-he-20190607-gh-specialclub-1047__x_large.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/help-the-best-people-on-earth-in-a-time-of-need"
+    },
+    {
+      "name": "Superiority Burger",
+      "neighborhood": "East Village",
+      "image": "https://infatuation.imgix.net/media/images/reviews/superiority-burger/NoahDevereaux_SuperiorityBurger_018_SuperiorityBurger.JPG?auto=format&h=890&w=1336",
+      "giftcardUrl": "http://www.superiorityburger.com/shop/sb-gift-card",
+      "merchLink": "http://www.superiorityburger.com/shop"
     },
     {
       "name": "Sushi by Bou",
@@ -795,10 +1594,31 @@
       "giftcardUrl": "https://www.giftrocker.com/secure/Order/?h=be278c3c"
     },
     {
+      "name": "Tanner Smith's",
+      "neighborhood": "Midtown",
+      "image": "https://nycnewyears.com/wp-content/uploads/2018/11/tanner-smith-nyc.jpeg",
+      "giftcardUrl": "https://app.yiftee.com/gifts/egift_and_gift_cards/tanner-smiths-new-york",
+      "reliefFundUrl": "https://www.gofundme.com/f/employees-of-tanner-smith039s"
+    },
+    {
+      "name": "Tanoreen",
+      "neighborhood": "Bay Ridge",
+      "image": "https://www.nycgo.com/images/venues/3961/tanoreen-kate-glicksberg-0462__x_large.jpg",
+      "giftcardUrl": "https://tanoreen.com/shop/gift-cards/"
+    },
+    {
       "name": "The Banty Rooster",
       "neighborhood": "West Village",
       "image": "https://images.getbento.com/accounts/4723f2abe8fe3574324b2640edaa27cb/media/images/57976The_Banty_Rooster_Tablescape_2.jpg?fit=max&w=1800&auto=format,compress",
       "giftcardUrl": "https://www.thebantynyc.com/store/gift-cards/"
+    },
+    {
+      "name": "The Clam",
+      "neighborhood": "West Village",
+      "image": "https://assets3.thrillist.com/v1/image/1166495/size/tmg-facebook_social.jpg",
+      "giftcardUrl": "https://www.theclamnyc.com/dining-bonds.html",
+      "reliefFundUrl": "https://www.gofundme.com/f/little-owl-market-table-amp-the-clam",
+      "notes": "Dining bond in gift card link"
     },
     {
       "name": "The Dutch",
@@ -815,10 +1635,36 @@
       "reliefFundUrl": "https://www.gofundme.com/f/the-team-at-hart039s-cervo039s-the-fly"
     },
     {
+      "name": "The Gin MIll",
+      "neighborhood": "UWS",
+      "image": "https://howdidyourpartygo.files.wordpress.com/2009/09/gin-4.jpg?w=584",
+      "reliefFundUrl": "https://www.gofundme.com/f/support-the-staff-nyc",
+      "notes": "EVERY DONATION $40 AND ABOVE WILL BE INVITED TO A PRIVATE 3 HOUR OPEN BAR PARTY AT OUR BARS WHEN WE REOPEN!"
+    },
+    {
+      "name": "The Good Fork",
+      "neighborhood": "Red Hook",
+      "image": "https://www.nycgo.com/images/venues/6175/10_thegoodfork_julienneschaer_048__large.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/insa-amp-the-good-fork-staff-fund",
+      "merchLink": "https://www.goodfork.com/books/"
+    },
+    {
       "name": "The Greek",
       "neighborhood": "Tribeca",
       "image": "https://s3-media0.fl.yelpcdn.com/bphoto/i1RZvA0FL9VlGGQMTn4KnQ/o.jpg",
       "giftcardUrl": "https://thegreektribeca.com/buy-a-gift-card"
+    },
+    {
+      "name": "The Happiest Hour",
+      "neighborhood": "West Village",
+      "image": "https://uploads.venuebook.com/cache/65/f2/65f2b56ed7558be7bb0456c021848d04.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/staff-disaster-relief-fund"
+    },
+    {
+      "name": "The Izakaya NYC",
+      "neighborhood": "East Village",
+      "image": "https://d37219swed47g7.cloudfront.net/media/images/reviews/the-izakaya-1/banners/1583251675.59.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/the-izakaya-nyc-never-give-up-fund"
     },
     {
       "name": "The Modern",
@@ -842,10 +1688,29 @@
       "reliefFundUrl": "https://www.gofundme.com/f/the-riddler-employee-assistance-program-eap"
     },
     {
+      "name": "The Stumble Inn",
+      "neighborhood": "UES",
+      "image": "https://assets3.thrillist.com/v1/image/1463840/size/tmg-venue_carousel_mobile.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/support-the-staff-nyc",
+      "notes": "EVERY DONATION $40 AND ABOVE WILL BE INVITED TO A PRIVATE 3 HOUR OPEN BAR PARTY AT OUR BARS WHEN WE REOPEN!"
+    },
+    {
+      "name": "The Winslow",
+      "neighborhood": "Union Square",
+      "image": "https://assets3.thrillist.com/v1/image/1160554/size/tmg-venue_carousel_mobile.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/the-winslow-staff"
+    },
+    {
       "name": "Thursday Kitchen",
       "neighborhood": "East Village",
       "image": "https://infatuation.imgix.net/media/images/reviews/thursday-kitchen/Thursday%20Kitchen%20Table.jpg?auto=format&h=890&w=1336",
       "reliefFundUrl": "https://www.gofundme.com/f/thursday-kitchen-staff-support"
+    },
+    {
+      "name": "Tijuana Picnic",
+      "neighborhood": "LES",
+      "image": "https://www.venuereport.com/media/cache/resolve/venue_carousel/uploads/venues/35100/originals/TP+9593.jpg",
+      "reliefFundUrl": "https://www.gofundme.com/f/staff-disaster-relief-fund"
     },
     {
       "name": "Tokyo Record Bar",
@@ -864,6 +1729,14 @@
       "neighborhood": "Greenpoint",
       "image": "https://static01.nyt.com/images/2013/06/13/fashion/13BOITE_SPAN/13ZBOITE-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
       "reliefFundUrl": "https://www.gofundme.com/f/trst-team-donation"
+    },
+    {
+      "name": "Txikito",
+      "neighborhood": "Chelsea",
+      "image": "https://static1.squarespace.com/static/56a81d031a52039cce8ddb39/t/56ba580dc6fc08e990b59371/1455052814655/_AlexRaij+164+copy.jpg",
+      "giftcardUrl": "http://www.txikitonyc.com/gifts/giftcertificate",
+      "reliefFundUrl": "https://www.gofundme.com/f/txiki",
+      "merchLink": "http://www.txikitonyc.com/the-basque-book"
     },
     {
       "name": "Uncle Boons",
@@ -889,7 +1762,8 @@
       "name": "Via Carota",
       "neighborhood": "West Village",
       "image": "https://d3rg18dos0rgue.cloudfront.net/wp-content/uploads/2018/05/Via-Carota-Solo-Dining-1600x660.jpg",
-      "giftcardUrl": "https://www.viacarota.com/giftcards/giftcard"
+      "giftcardUrl": "https://www.viacarota.com/giftcards/giftcard",
+      "reliefFundUrl": "https://www.gofundme.com/f/via-carota-family-fund?utm_source=facebook&utm_medium=social&utm_campaign=p_cp+share-sheet&fbclid=IwAR0f2ZSvh-kF3xB00cnw7HPs6eyQpPCq9yKQvuOyYSqnFjTS_Hik2QAZn9I"
     },
     {
       "name": "Vinegar Hill House",
@@ -903,6 +1777,12 @@
       "image": "https://images.getbento.com/accounts/e8e716e949a07d46641433b10f5dcfc3/media/images/19762Vini_e_Fritti_October_2018_Peter_Garritano_3.jpg?w=1800&fit=max&auto=compress,format&h=1800",
       "giftcardUrl": "https://ecommerce.custcon.com/Selection.aspx?c=D936B6A5-6CB9-42C7-8762-9BBEECC3C29D&utm_source=footer&utm_medium=web&utm_content=ushg&utm_campaign=fund",
       "notes": "100% of purchases through 3/24 will go toward employee relief fund"
+    },
+    {
+      "name": "Walker's",
+      "neighborhood": "Chelsea",
+      "image": "https://d37219swed47g7.cloudfront.net/media/reviews/walkers/banners/Walkers_0.jpeg",
+      "reliefFundUrl": "https://www.gofundme.com/f/walkers-tribeca-bar-and-service-staff-relief-fund"
     },
     {
       "name": "Walter's",
@@ -934,6 +1814,12 @@
       "neighborhood": "East Williamsburg",
       "image": "https://cdn.vox-cdn.com/thumbor/xZfp5579oI0yPnWa3eCzhSYnX5E=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19164233/20190830_GH_WINSONBAKERY_1004.jpg",
       "reliefFundUrl": "https://venmo.com/win-son"
+    },
+    {
+      "name": "Zooba",
+      "neighborhood": "Nolita",
+      "image": "https://infatuation.imgix.net/media/images/reviews/zooba/TeddyWolff.Zooba.78.jpg?auto=format&h=890&w=1336",
+      "reliefFundUrl": "https://www.gofundme.com/f/zooba-nyc-employee-relief-fund"
     }
   ]
 }
